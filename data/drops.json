@@ -1,0 +1,403 @@
+{
+
+  "contents": {
+    "fenda_maior": {
+      "name": "Fenda Maior",
+      "levels": {
+        "1": {
+          "name": "1º Andar (Normal)",
+          "drops": ["florzinha","mineas_1_normal", "varmeal_ticket_1_normal", "mini_refinadora_1_normal", "manto_elementos_1_normal"]
+        },
+        "2": {
+          "name": "2º Andar (Normal)",
+          "drops": ["florzinha","mineas_2_normal", "varmeal_ticket_2_normal", "mini_refinadora_2_normal", "manto_elementos_2_normal"]
+        },
+        "3": {
+          "name": "3º Andar (Normal)",
+          "drops": ["florzinha","mineas_3_normal", "varmeal_ticket_3_normal", "mini_refinadora_3_normal", "manto_elementos_3_normal"]
+        },
+        "4": {
+          "name": "4º Andar (Intermediate)",
+          "drops": ["florzinha","moeda_flush_4_intermediate", "mineas_4_intermediate", "varmeal_ticket_4_intermediate", "mini_refinadora_4_intermediate"]
+        },
+        "5": {
+          "name": "5º Andar (Intermediate)",
+          "drops": ["florzinha","moeda_flush_5_intermediate", "mineas_5_intermediate", "varmeal_ticket_5_intermediate", "mini_refinadora_5_intermediate"]
+        },
+        "6": {
+          "name": "6º Andar (Intermediate)",
+          "drops": ["florzinha","moeda_flush_6_intermediate", "mineas_6_intermediate", "varmeal_ticket_6_intermediate", "mini_refinadora_6_intermediate"]
+        },
+        "7": {
+          "name": "7º Andar (Hard)",
+          "drops": ["florzinha","mineas_7_hard", "varmeal_ticket_7_hard", "mini_refinadora_7_hard", "manto_luz_sol_7_hard"]
+        },
+        "8": {
+          "name": "8º Andar (Hard)",
+          "drops": ["florzinha","mineas_8_hard", "varmeal_ticket_8_hard", "mini_refinadora_8_hard", "manto_luz_sol_8_hard"]
+        },
+        "9": {
+          "name": "9º Andar (Hard)",
+          "drops": ["florzinha","mineas_9_hard", "varmeal_ticket_9_hard", "mini_refinadora_9_hard", "manto_luz_sol_9_hard"]
+        },
+        "10": {
+          "name": "10º Andar (Extreme)",
+          "drops": ["florzinha","mineas_10_extreme", "varmeal_ticket_10_extreme", "refinadora_complexa_10_extreme", "kings_eager_10_extreme"]
+        },
+        "11": {
+          "name": "11º Andar (Extreme)",
+          "drops": ["florzinha","mineas_11_extreme", "varmeal_ticket_11_extreme", "refinadora_complexa_11_extreme", "kings_eager_11_extreme"]
+        },
+        "12": {
+          "name": "12º Andar (Extreme)",
+          "drops": ["florzinha","mineas_12_extreme", "varmeal_ticket_12_extreme", "refinadora_complexa_12_extreme", "kings_eager_12_extreme"]
+        },
+        "13": {
+          "name": "13º Andar (Unreal)",
+          "drops": ["florzinha","bolinho_saltitante_13_unreal", "refinadora_complexa_13_unreal", "album_magico_13_unreal", "varmundt_reform_13_unreal"]
+        },
+        "14": {
+          "name": "14º Andar (Unreal)",
+          "drops": ["florzinha","bolinho_saltitante_14_unreal", "refinadora_complexa_14_unreal", "album_magico_14_unreal", "varmundt_reform_14_unreal"]
+        },
+        "15": {
+          "name": "15º Andar (Unreal)",
+          "drops": ["florzinha","bolinho_saltitante_15_unreal", "refinadora_complexa_15_unreal", "album_magico_15_unreal", "varmundt_reform_15_unreal"]
+        },
+        "16": {
+          "name": "16º Andar (Savage)",
+          "drops": ["florzinha","bolinho_saltitante_16_savage", "refinadora_complexa_16_savage", "album_magico_16_savage", "casaco_comemorativo_16_savage"]
+        },
+        "17": {
+          "name": "17º Andar (Savage)",
+          "drops": ["florzinha","bolinho_saltitante_17_savage", "refinadora_complexa_17_savage", "album_magico_17_savage", "casaco_comemorativo_17_savage"]
+        },
+        "18": {
+          "name": "18º Andar (Savage)",
+          "drops": ["florzinha","bolinho_saltitante_18_savage", "refinadora_complexa_18_savage", "album_magico_18_savage", "casaco_comemorativo_18_savage"]
+        }
+      }
+    }
+  },
+  "items": {
+    "florzinha": {
+      "name": "Florzinha",
+      "base_drop_percent": 2.0
+    },
+    "mineas_1_normal": {
+      "name": "Mineas [100%]",
+      "base_drop_percent": 100.0
+    },
+    "varmeal_ticket_1_normal": {
+      "name": "Varmeal Ticket [100%]",
+      "base_drop_percent": 100.0
+    },
+    "mini_refinadora_1_normal": {
+      "name": "Mini Refinadora",
+      "base_drop_percent": 0.5
+    },
+    "manto_elementos_1_normal": {
+      "name": "Manto dos Elementos [1]",
+      "base_drop_percent": 0.34
+    },
+    "moeda_flush_4_intermediate": {
+      "name": "Moeda Flush [100%]",
+      "base_drop_percent": 100.0
+    },
+    "mineas_4_intermediate": {
+      "name": "Mineas [100%]",
+      "base_drop_percent": 100.0
+    },
+    "varmeal_ticket_4_intermediate": {
+      "name": "Varmeal Ticket [100%]",
+      "base_drop_percent": 100.0
+    },
+    "mini_refinadora_4_intermediate": {
+      "name": "Mini Refinadora",
+      "base_drop_percent": 1.25
+    },
+    "mineas_2_normal": {
+      "name": "Mineas [100%]",
+      "base_drop_percent": 100.0
+    },
+    "varmeal_ticket_2_normal": {
+      "name": "Varmeal Ticket [100%]",
+      "base_drop_percent": 100.0
+    },
+    "mini_refinadora_2_normal": {
+      "name": "Mini Refinadora",
+      "base_drop_percent": 0.75
+    },
+    "manto_elementos_2_normal": {
+      "name": "Manto dos Elementos [1]",
+      "base_drop_percent": 0.50
+    },
+    "moeda_flush_5_intermediate": {
+      "name": "Moeda Flush [100%]",
+      "base_drop_percent": 100.0
+    },
+    "mineas_5_intermediate": {
+      "name": "Mineas [100%]",
+      "base_drop_percent": 100.0
+    },
+    "varmeal_ticket_5_intermediate": {
+      "name": "Varmeal Ticket [100%]",
+      "base_drop_percent": 100.0
+    },
+    "mini_refinadora_5_intermediate": {
+      "name": "Mini Refinadora",
+      "base_drop_percent": 1.5
+    },
+    "mineas_3_normal": {
+      "name": "Mineas [100%]",
+      "base_drop_percent": 100.0
+    },
+    "varmeal_ticket_3_normal": {
+      "name": "Varmeal Ticket [100%]",
+      "base_drop_percent": 100.0
+    },
+    "mini_refinadora_3_normal": {
+      "name": "Mini Refinadora",
+      "base_drop_percent": 1.0
+    },
+    "manto_elementos_3_normal": {
+      "name": "Manto dos Elementos [1]",
+      "base_drop_percent": 0.68
+    },
+    "moeda_flush_6_intermediate": {
+      "name": "Moeda Flush [100%]",
+      "base_drop_percent": 100.0
+    },
+    "mineas_6_intermediate": {
+      "name": "Mineas [100%]",
+      "base_drop_percent": 100.0
+    },
+    "varmeal_ticket_6_intermediate": {
+      "name": "Varmeal Ticket [100%]",
+      "base_drop_percent": 100.0
+    },
+    "mini_refinadora_6_intermediate": {
+      "name": "Mini Refinadora",
+      "base_drop_percent": 1.75
+    },
+    "mineas_7_hard": {
+      "name": "Mineas [100%]",
+      "base_drop_percent": 100.0
+    },
+    "varmeal_ticket_7_hard": {
+      "name": "Varmeal Ticket [100%]",
+      "base_drop_percent": 100.0
+    },
+    "mini_refinadora_7_hard": {
+      "name": "Mini Refinadora",
+      "base_drop_percent": 2.0
+    },
+    "manto_luz_sol_7_hard": {
+      "name": "Manto da Luz do Sol [1]",
+      "base_drop_percent": 0.14
+    },
+    "mineas_8_hard": {
+      "name": "Mineas [100%]",
+      "base_drop_percent": 100.0
+    },
+    "varmeal_ticket_8_hard": {
+      "name": "Varmeal Ticket [100%]",
+      "base_drop_percent": 100.0
+    },
+    "mini_refinadora_8_hard": {
+      "name": "Mini Refinadora",
+      "base_drop_percent": 2.25
+    },
+    "manto_luz_sol_8_hard": {
+      "name": "Manto da Luz do Sol [1]",
+      "base_drop_percent": 0.2
+    },
+    "mineas_9_hard": {
+      "name": "Mineas [100%]",
+      "base_drop_percent": 100.0
+    },
+    "varmeal_ticket_9_hard": {
+      "name": "Varmeal Ticket [100%]",
+      "base_drop_percent": 100.0
+    },
+    "mini_refinadora_9_hard": {
+      "name": "Mini Refinadora",
+      "base_drop_percent": 2.5
+    },
+    "manto_luz_sol_9_hard": {
+      "name": "Manto da Luz do Sol [1]",
+      "base_drop_percent": 0.3
+    },
+    "mineas_10_extreme": {
+      "name": "Mineas [100%]",
+      "base_drop_percent": 100.0
+    },
+    "varmeal_ticket_10_extreme": {
+      "name": "Varmeal Ticket [100%]",
+      "base_drop_percent": 100.0
+    },
+    "refinadora_complexa_10_extreme": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0.12
+    },
+    "kings_eager_10_extreme": {
+      "name": "Kings Eager [1]",
+      "base_drop_percent": 0.014
+    },
+    "mineas_11_extreme": {
+      "name": "Mineas [100%]",
+      "base_drop_percent": 100.0
+    },
+    "varmeal_ticket_11_extreme": {
+      "name": "Varmeal Ticket [100%]",
+      "base_drop_percent": 100.0
+    },
+    "refinadora_complexa_11_extreme": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0.18
+    },
+    "kings_eager_11_extreme": {
+      "name": "Kings Eager [1]",
+      "base_drop_percent": 0.02
+    },
+    "mineas_12_extreme": {
+      "name": "Mineas [100%]",
+      "base_drop_percent": 100.0
+    },
+    "varmeal_ticket_12_extreme": {
+      "name": "Varmeal Ticket [100%]",
+      "base_drop_percent": 100.0
+    },
+    "refinadora_complexa_12_extreme": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0.24
+    },
+    "kings_eager_12_extreme": {
+      "name": "Kings Eager [1]",
+      "base_drop_percent": 0.03
+    },
+    "bolinho_saltitante_13_unreal": {
+      "name": "Bolinho Saltitante [100%]",
+      "base_drop_percent": 100.0
+    },
+    "refinadora_complexa_13_unreal": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0.30
+    },
+    "album_magico_13_unreal": {
+      "name": "Álbum Mágico de Cartas [MVP] [Bio 3]",
+      "base_drop_percent": 0.01
+    },
+    "varmundt_reform_13_unreal": {
+      "name": "Varmundt Reform Box",
+      "base_drop_percent": 0.02
+    },
+    "bolinho_saltitante_14_unreal": {
+      "name": "Bolinho Saltitante [100%]",
+      "base_drop_percent": 100.0
+    },
+    "refinadora_complexa_14_unreal": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0.36
+    },
+    "album_magico_14_unreal": {
+      "name": "Álbum Mágico de Cartas [MVP] [Bio 3]",
+      "base_drop_percent": 0.02
+    },
+    "varmundt_reform_14_unreal": {
+      "name": "Varmundt Reform Box",
+      "base_drop_percent": 0.03
+    },
+    "bolinho_saltitante_15_unreal": {
+      "name": "Bolinho Saltitante [100%]",
+      "base_drop_percent": 100.0
+    },
+    "refinadora_complexa_15_unreal": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0.42
+    },
+    "album_magico_15_unreal": {
+      "name": "Álbum Mágico de Cartas [MVP] [Bio 3]",
+      "base_drop_percent": 0.03
+    },
+    "varmundt_reform_15_unreal": {
+      "name": "Varmundt Reform Box",
+      "base_drop_percent": 0.04
+    },
+    "bolinho_saltitante_16_savage": {
+      "name": "Bolinho Saltitante [100%]",
+      "base_drop_percent": 100.0
+    },
+    "refinadora_complexa_16_savage": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0.48
+    },
+    "album_magico_16_savage": {
+      "name": "Álbum Mágico de Cartas [MVP] [Bio 3]",
+      "base_drop_percent": 0.04
+    },
+    "casaco_comemorativo_16_savage": {
+      "name": "Casaco Comemorativo Dourado",
+      "base_drop_percent": 0.02
+    },
+    "bolinho_saltitante_17_savage": {
+      "name": "Bolinho Saltitante [100%]",
+      "base_drop_percent": 100.0
+    },
+    "refinadora_complexa_17_savage": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0.54
+    },
+    "album_magico_17_savage": {
+      "name": "Álbum Mágico de Cartas [MVP] [Bio 3]",
+      "base_drop_percent": 0.05
+    },
+    "casaco_comemorativo_17_savage": {
+      "name": "Casaco Comemorativo Dourado",
+      "base_drop_percent": 0.03
+    },
+    "bolinho_saltitante_18_savage": {
+      "name": "Bolinho Saltitante [100%]",
+      "base_drop_percent": 100.0
+    },
+    "refinadora_complexa_18_savage": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0.60
+    },
+    "album_magico_18_savage": {
+      "name": "Álbum Mágico de Cartas [MVP] [Bio 3]",
+      "base_drop_percent": 0.06
+    },
+    "casaco_comemorativo_18_savage": {
+      "name": "Casaco Comemorativo Dourado",
+      "base_drop_percent": 0.045
+    }
+
+  
+
+  },
+  "modifiers": {
+    "rates": {
+      "1x_temporada": 65
+    },
+    "vip": {
+      "vip1": 10,
+      "vip2": 10
+    },
+    "pets": {
+      "C90": 54
+    },
+    "pet_equip": {
+      "per_level_final": 1
+    },
+    "quest_fenda_savage": {
+      "final": 3
+    },
+    "reputation_bolinha": {
+      "per": 2
+    },
+    "profissao_level6": {
+      "per_prof": 1
+    }
+  }
+}
