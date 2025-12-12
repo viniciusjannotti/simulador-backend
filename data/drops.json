@@ -74,7 +74,7 @@
         },
         "18": {
           "name": "18º Andar (Savage)",
-          "drops": ["florzinha","bolinho_saltitante_18_savage", "refinadora_complexa_18_savage", "album_magico_18_savage", "casaco_comemorativo_18_savage"]
+          "drops": ["florzinha","bolinho_saltitante_18_savage", "refinadora_complexa_18_savage", "album_magico_18_savage", "casaco_comemorativo_18_savage", "cesta_das_maravilhas"]
         }
       }
     }
@@ -371,6 +371,10 @@
     "casaco_comemorativo_18_savage": {
       "name": "Casaco Comemorativo Dourado",
       "base_drop_percent": 0.045
+    },
+    "cesta_das_maravilhas": {
+      "name": "Cesta das Maravilhas",
+      "base_drop_percent": 0.03
     }
 
   
