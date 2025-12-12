@@ -76,7 +76,16 @@
           "drops": ["florzinha", "refinadora_complexa_18_savage", "album_magico_18_savage", "casaco_comemorativo_18_savage", "cesta_das_maravilhas_18", "memento_mori_18", "heros_triumph_18", "hero_18", "release_of_magic_18", "epifania_18"]
         }
       }
-    }
+    },
+    "glast_heim": {
+      "name": "Glast Heim Extreme",
+      "levels": {
+        "1": {
+          "name": "1º Andar (Normal)",
+          "drops": ["florzinha", "mini_refinadora_1_normal", "manto_elementos_1_normal"]
+        }
+      }
+    }  
   },
   "items": {
     "florzinha": {
