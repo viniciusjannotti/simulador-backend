@@ -66,11 +66,11 @@
         },
         "16": {
           "name": "16º Andar (Savage)",
-          "drops": ["florzinha","bolinho_saltitante_16_savage", "refinadora_complexa_16_savage", "album_magico_16_savage", "casaco_comemorativo_16_savage"]
+          "drops": ["florzinha","bolinho_saltitante_16_savage", "refinadora_complexa_16_savage", "album_magico_16_savage", "casaco_comemorativo_16_savage", "cesta_das_maravilhas_16", "memento_mori_16", "heros_triumph_16", "hero_16", "release_of_magic_16", "epifania_16"]
         },
         "17": {
           "name": "17º Andar (Savage)",
-          "drops": ["florzinha","bolinho_saltitante_17_savage", "refinadora_complexa_17_savage", "album_magico_17_savage", "casaco_comemorativo_17_savage"]
+          "drops": ["florzinha","bolinho_saltitante_17_savage", "refinadora_complexa_17_savage", "album_magico_17_savage", "casaco_comemorativo_17_savage", "cesta_das_maravilhas_17", "memento_mori_17", "heros_triumph_17", "hero_17", "release_of_magic_17", "epifania_17"]
         },
         "18": {
           "name": "18º Andar (Savage)",
@@ -340,6 +340,30 @@
       "name": "Casaco Comemorativo Dourado",
       "base_drop_percent": 0.02
     },
+    "cesta_das_maravilha_16": {
+      "name": "Cesta das Maravilhas",
+      "base_drop_percent": 0.014
+    },
+    "memento_mori_16": {
+      "name": "Memento Mori",
+      "base_drop_percent": 0.007
+    },
+    "heros_triumph_16": {
+      "name": "Hero's Triumph",
+      "base_drop_percent": 0.067
+    },
+    "hero_16": {
+      "name": "Hero",
+      "base_drop_percent": 0.02
+    },
+    "release_of_magic_16": {
+      "name": "Release of Magic",
+      "base_drop_percent": 0.02
+    },
+    "epifania_16": {
+      "name": "Epifania",
+      "base_drop_percent": 0.02
+    },
     "bolinho_saltitante_17_savage": {
       "name": "Bolinho Saltitante [100%]",
       "base_drop_percent": 100.0
@@ -354,6 +378,30 @@
     },
     "casaco_comemorativo_17_savage": {
       "name": "Casaco Comemorativo Dourado",
+      "base_drop_percent": 0.03
+    },
+    "cesta_das_maravilha_17": {
+      "name": "Cesta das Maravilhas",
+      "base_drop_percent": 0.02
+    },
+    "memento_mori_17": {
+      "name": "Memento Mori",
+      "base_drop_percent": 0.01
+    },
+    "heros_triumph_17": {
+      "name": "Hero's Triumph",
+      "base_drop_percent": 0.1
+    },
+    "hero_17": {
+      "name": "Hero",
+      "base_drop_percent": 0.03
+    },
+    "release_of_magic_17": {
+      "name": "Release of Magic",
+      "base_drop_percent": 0.03
+    },
+    "epifania_17": {
+      "name": "Epifania",
       "base_drop_percent": 0.03
     },
     "bolinho_saltitante_18_savage": {
@@ -372,27 +420,27 @@
       "name": "Casaco Comemorativo Dourado",
       "base_drop_percent": 0.045
     },
-    "cesta_das_maravilhas": {
+    "cesta_das_maravilha_18": {
       "name": "Cesta das Maravilhas",
       "base_drop_percent": 0.03
     },
-    "memento_mori": {
+    "memento_mori_18": {
       "name": "Memento Mori",
       "base_drop_percent": 0.015
     },
-    "heros_triumph": {
+    "heros_triumph_18": {
       "name": "Hero's Triumph",
       "base_drop_percent": 0.15
     },
-    "hero": {
+    "hero_18": {
       "name": "Hero",
       "base_drop_percent": 0.045
     },
-    "release_of_magic": {
+    "release_of_magic_18": {
       "name": "Release of Magic",
       "base_drop_percent": 0.045
     },
-    "epifania": {
+    "epifania_18": {
       "name": "Epifania",
       "base_drop_percent": 0.045
     }
