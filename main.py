@@ -140,6 +140,59 @@ def list_drops(content_id: str, level_id: str):
     
     return {"drops": result}
 
+@app.get("/contents/{content_id}/levels/{level_id}/monster-drops")
+def list_monster_drops(content_id: str, level_id: str):
+    """Retorna tabela de drops por monstro para conteúdos tipo monster_table"""
+    contents = DATA.get("contents", {})
+    if content_id not in contents:
+        raise HTTPException(status_code=404, detail="Content not found")
+    
+    content = contents[content_id]
+    
+    # Verifica se é do tipo monster_table
+    if content.get("type") != "monster_table":
+        raise HTTPException(status_code=400, detail="This content type doesn't support monster tables")
+    
+    levels = content.get("levels", {})
+    if level_id not in levels:
+        raise HTTPException(status_code=404, detail="Level not found")
+    
+    level = levels[level_id]
+    monsters = level.get("monsters", [])
+    drops_data = level.get("drops", {})
+    items = DATA.get("items", {})
+    
+    # Monta os dados dos monstros
+    monster_info = []
+    for monster_id in monsters:
+        monster_info.append({
+            "monster_id": monster_id,
+            "name": monster_id.replace("_", " ").title()  # Converte ID para nome
+        })
+    
+    # Monta os dados dos drops
+    drops_info = []
+    for item_id, monster_rates in drops_data.items():
+        if item_id in items:
+            item = items[item_id]
+            drop_entry = {
+                "item_id": item_id,
+                "item_name": item.get("name", item_id),
+                "rates": {}
+            }
+            
+            # Adiciona a taxa para cada monstro
+            for monster_id in monsters:
+                drop_entry["rates"][monster_id] = monster_rates.get(monster_id, 0.0)
+            
+            drops_info.append(drop_entry)
+    
+    return {
+        "content_id": content_id,
+        "level_id": level_id,
+        "monsters": monster_info,
+        "drops": drops_info
+    }
 
 @app.post("/drop/calculate-all")
 def calculate_all_drops(req: BatchCalculateRequest):
@@ -234,6 +287,95 @@ def apply_caps(p_base_percent: float, p_final_percent: float) -> float:
         return 100.0
     return p_final_percent
 
+# - Calculadora para drops do tipo monster_table
+
+@app.post("/drop/calculate-monster-table")
+def calculate_monster_table(req: BatchCalculateRequest):
+    """Calcula taxas finais para todos os drops de um nível tipo monster_table"""
+    contents = DATA.get("contents", {})
+    if req.content_id not in contents:
+        raise HTTPException(status_code=404, detail="Content not found")
+    
+    content = contents[req.content_id]
+    
+    if content.get("type") != "monster_table":
+        raise HTTPException(status_code=400, detail="This content type doesn't support monster tables")
+    
+    levels = content.get("levels", {})
+    if req.level_id not in levels:
+        raise HTTPException(status_code=404, detail="Level not found")
+    
+    level = levels[req.level_id]
+    monsters = level.get("monsters", [])
+    drops_data = level.get("drops", {})
+    items = DATA.get("items", {})
+    
+    # Processa consumíveis
+    selected = set(req.consumables)
+    best_big = max((BIG_CONS[c] for c in selected if c in BIG_CONS), default=0.0)
+    
+    general_mods = dict(req.general_mods) if req.general_mods else {}
+    if best_big > 0:
+        general_mods["consumable_big"] = best_big
+    
+    used_calice = "calice" in selected
+    used_calice2 = "calice2" in selected
+    used_big = used_calice or used_calice2
+    
+    for key, val in GENERAL_CONS.items():
+        if key not in selected:
+            continue
+        if key in ("lata", "revitalizadora"):
+            if not used_big:
+                general_mods[key] = val
+        elif key == "drop_pot":
+            if not used_calice:
+                general_mods[key] = val
+        else:
+            general_mods[key] = val
+    
+    final_mods = dict(req.final_mods) if req.final_mods else {}
+    for key, val in FINAL_CONS.items():
+        if key in selected:
+            final_mods[f"final_{key}"] = val
+    
+    B_general = sum(general_mods.values())
+    B_final = sum(final_mods.values())
+    
+    # Calcula para cada item e monstro
+    monster_info = [{"monster_id": m, "name": m.replace("_", " ").title()} for m in monsters]
+    
+    result_drops = []
+    for item_id, monster_rates in drops_data.items():
+        if item_id in items:
+            item = items[item_id]
+            drop_entry = {
+                "item_id": item_id,
+                "item_name": item.get("name", item_id),
+                "calculated_rates": {}
+            }
+            
+            for monster_id in monsters:
+                p_base = float(monster_rates.get(monster_id, 0.0))
+                p_inter = p_base * (1 + B_general / 100.0)
+                p_final = p_inter * (1 + B_final / 100.0)
+                p_final = apply_caps(p_base, p_final)
+                
+                drop_entry["calculated_rates"][monster_id] = {
+                    "base": p_base,
+                    "final": p_final
+                }
+            
+            result_drops.append(drop_entry)
+    
+    return {
+        "content_id": req.content_id,
+        "level_id": req.level_id,
+        "B_general_percent": B_general,
+        "B_final_percent": B_final,
+        "monsters": monster_info,
+        "drops": result_drops
+    }
 
 @app.post("/drop/calculate")
 def drop_calculate(s: Scenario):
