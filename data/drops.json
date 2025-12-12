@@ -74,7 +74,7 @@
         },
         "18": {
           "name": "18º Andar (Savage)",
-          "drops": ["florzinha","bolinho_saltitante_18_savage", "refinadora_complexa_18_savage", "album_magico_18_savage", "casaco_comemorativo_18_savage", "cesta_das_maravilhas"]
+          "drops": ["florzinha","bolinho_saltitante_18_savage", "refinadora_complexa_18_savage", "album_magico_18_savage", "casaco_comemorativo_18_savage", "cesta_das_maravilhas", "memento_mori", "heros_triumph", "hero", "release_of_magic", "epifania"]
         }
       }
     }
@@ -375,9 +375,29 @@
     "cesta_das_maravilhas": {
       "name": "Cesta das Maravilhas",
       "base_drop_percent": 0.03
+    },
+    "memento_mori": {
+      "name": "Memento Mori",
+      "base_drop_percent": 0.015
+    },
+    "heros_triumph": {
+      "name": "Hero's Triumph",
+      "base_drop_percent": 0.15
+    },
+    "hero": {
+      "name": "Hero",
+      "base_drop_percent": 0.045
+    },
+    "release_of_magic": {
+      "name": "Release of Magic",
+      "base_drop_percent": 0.045
+    },
+    "epifania": {
+      "name": "Epifania",
+      "base_drop_percent": 0.045
     }
-
-  
+    
+    
 
   },
   "modifiers": {
