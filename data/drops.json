@@ -387,6 +387,9 @@
     "pets": {
       "C90": 54
     },
+    "pk": {
+      "pk": 25
+    },
     "pet_equip": {
       "per_level_final": 1
     },
