@@ -54,27 +54,27 @@
         },
         "13": {
           "name": "13º Andar (Unreal)",
-          "drops": ["florzinha","bolinho_saltitante_13_unreal", "refinadora_complexa_13_unreal", "album_magico_13_unreal", "varmundt_reform_13_unreal"]
+          "drops": ["florzinha", "refinadora_complexa_13_unreal", "album_magico_13_unreal", "varmundt_reform_13_unreal"]
         },
         "14": {
           "name": "14º Andar (Unreal)",
-          "drops": ["florzinha","bolinho_saltitante_14_unreal", "refinadora_complexa_14_unreal", "album_magico_14_unreal", "varmundt_reform_14_unreal"]
+          "drops": ["florzinha", "refinadora_complexa_14_unreal", "album_magico_14_unreal", "varmundt_reform_14_unreal"]
         },
         "15": {
           "name": "15º Andar (Unreal)",
-          "drops": ["florzinha","bolinho_saltitante_15_unreal", "refinadora_complexa_15_unreal", "album_magico_15_unreal", "varmundt_reform_15_unreal"]
+          "drops": ["florzinha", "refinadora_complexa_15_unreal", "album_magico_15_unreal", "varmundt_reform_15_unreal"]
         },
         "16": {
           "name": "16º Andar (Savage)",
-          "drops": ["florzinha","bolinho_saltitante_16_savage", "refinadora_complexa_16_savage", "album_magico_16_savage", "casaco_comemorativo_16_savage", "cesta_das_maravilhas_16", "memento_mori_16", "heros_triumph_16", "hero_16", "release_of_magic_16", "epifania_16"]
+          "drops": ["florzinha", "refinadora_complexa_16_savage", "album_magico_16_savage", "casaco_comemorativo_16_savage", "cesta_das_maravilhas_16", "memento_mori_16", "heros_triumph_16", "hero_16", "release_of_magic_16", "epifania_16"]
         },
         "17": {
           "name": "17º Andar (Savage)",
-          "drops": ["florzinha","bolinho_saltitante_17_savage", "refinadora_complexa_17_savage", "album_magico_17_savage", "casaco_comemorativo_17_savage", "cesta_das_maravilhas_17", "memento_mori_17", "heros_triumph_17", "hero_17", "release_of_magic_17", "epifania_17"]
+          "drops": ["florzinha", "refinadora_complexa_17_savage", "album_magico_17_savage", "casaco_comemorativo_17_savage", "cesta_das_maravilhas_17", "memento_mori_17", "heros_triumph_17", "hero_17", "release_of_magic_17", "epifania_17"]
         },
         "18": {
           "name": "18º Andar (Savage)",
-          "drops": ["florzinha","bolinho_saltitante_18_savage", "refinadora_complexa_18_savage", "album_magico_18_savage", "casaco_comemorativo_18_savage", "cesta_das_maravilhas", "memento_mori", "heros_triumph", "hero", "release_of_magic", "epifania"]
+          "drops": ["florzinha", "refinadora_complexa_18_savage", "album_magico_18_savage", "casaco_comemorativo_18_savage", "cesta_das_maravilhas", "memento_mori", "heros_triumph", "hero", "release_of_magic", "epifania"]
         }
       }
     }
@@ -276,10 +276,6 @@
       "name": "Kings Eager [1]",
       "base_drop_percent": 0.03
     },
-    "bolinho_saltitante_13_unreal": {
-      "name": "Bolinho Saltitante [100%]",
-      "base_drop_percent": 100.0
-    },
     "refinadora_complexa_13_unreal": {
       "name": "Refinadora Complexa",
       "base_drop_percent": 0.30
@@ -291,10 +287,6 @@
     "varmundt_reform_13_unreal": {
       "name": "Varmundt Reform Box",
       "base_drop_percent": 0.02
-    },
-    "bolinho_saltitante_14_unreal": {
-      "name": "Bolinho Saltitante [100%]",
-      "base_drop_percent": 100.0
     },
     "refinadora_complexa_14_unreal": {
       "name": "Refinadora Complexa",
@@ -308,10 +300,6 @@
       "name": "Varmundt Reform Box",
       "base_drop_percent": 0.03
     },
-    "bolinho_saltitante_15_unreal": {
-      "name": "Bolinho Saltitante [100%]",
-      "base_drop_percent": 100.0
-    },
     "refinadora_complexa_15_unreal": {
       "name": "Refinadora Complexa",
       "base_drop_percent": 0.42
@@ -323,10 +311,6 @@
     "varmundt_reform_15_unreal": {
       "name": "Varmundt Reform Box",
       "base_drop_percent": 0.04
-    },
-    "bolinho_saltitante_16_savage": {
-      "name": "Bolinho Saltitante [100%]",
-      "base_drop_percent": 100.0
     },
     "refinadora_complexa_16_savage": {
       "name": "Refinadora Complexa",
@@ -364,10 +348,6 @@
       "name": "Epifania",
       "base_drop_percent": 0.02
     },
-    "bolinho_saltitante_17_savage": {
-      "name": "Bolinho Saltitante [100%]",
-      "base_drop_percent": 100.0
-    },
     "refinadora_complexa_17_savage": {
       "name": "Refinadora Complexa",
       "base_drop_percent": 0.54
@@ -403,10 +383,6 @@
     "epifania_17": {
       "name": "Epifania",
       "base_drop_percent": 0.03
-    },
-    "bolinho_saltitante_18_savage": {
-      "name": "Bolinho Saltitante [100%]",
-      "base_drop_percent": 100.0
     },
     "refinadora_complexa_18_savage": {
       "name": "Refinadora Complexa",
