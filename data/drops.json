@@ -96,6 +96,12 @@
               "elite": 0.3,
               "mini_boss": 3,              
               "mvp": 15
+            },
+            "orbe_lapine_sagrado": {
+              "normal": 0.004,
+              "elite": 0.012,
+              "mini_boss": 0.12,              
+              "mvp": 0.6
             }
           }
         }
@@ -334,6 +340,21 @@
     "epifania_18": {
       "name": "Epifania",
       "base_drop_percent": 0.045
+    },
+    
+
+
+    "fragmento_sagrado": {
+      "name": "Fragmento Sagrado",
+      "base_drop_percent": 0.05
+    },
+    "pergaminho_brilhante": {
+      "name": "Pergaminho Brilhante",
+      "base_drop_percent": 0.1
+    },
+    "orbe_lapine_sagrado": {
+      "name": "Orbe Lapine Sagrado",
+      "base_drop_percent": 0.004
     }
   },
   "modifiers": {
