@@ -128,7 +128,7 @@
               "mvp": 0.01
             },
             "escudo_divino": {
-              "normal": null,
+              "normal": 0,
               "elite": 0.0001,
               "mini_boss": 0.001,              
               "mvp": 0.02
