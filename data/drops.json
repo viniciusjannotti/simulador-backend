@@ -83,21 +83,19 @@
       "levels": {
         "1": {
           "name": "Glast Heim Extreme",
-          "monsters": ["khalitzburg", "corrupted_abysmal", "corruption_root", "lady_solace", "dark_pinguicula"],
+          "monsters": ["normal", "elite", "mini_boss", "mvp"],
           "drops": {
-            "item_exemplo_1": {
-              "khalitzburg": 0.5,
-              "corrupted_abysmal": 0.3,
-              "corruption_root": 0.4,
-              "lady_solace": 0.2,
-              "dark_pinguicula": 0.6
+            "fragmento_sagrado": {
+              "normal": 0.05,
+              "elite": 0.15,
+              "mini_boss": 1.5,              
+              "mvp": 7.5
             },
-            "item_exemplo_2": {
-              "khalitzburg": 1.0,
-              "corrupted_abysmal": 0.8,
-              "corruption_root": 0.9,
-              "lady_solace": 0.7,
-              "dark_pinguicula": 1.2
+            "pergaminho_brilhante": {
+              "normal": 0.1,
+              "elite": 0.3,
+              "mini_boss": 3,              
+              "mvp": 15
             }
           }
         }
