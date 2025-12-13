@@ -85,7 +85,8 @@ def list_contents():
     for content_id, content_data in contents.items():
         result.append({
             "content_id": content_id,
-            "name": content_data.get("name", content_id)
+            "name": content_data.get("name", content_id),
+            "type": content_data.get("type", "normal")
         })
     return {"contents": result}
 

@@ -102,6 +102,36 @@
               "elite": 0.012,
               "mini_boss": 0.12,              
               "mvp": 0.6
+            },
+            "mini_refinadora_extreme": {
+              "normal": 0.0005,
+              "elite": 0.0015,
+              "mini_boss": 0.015,              
+              "mvp": 0.075
+            },
+            "refinadora_complexa_extreme": {
+              "normal": 0,
+              "elite": 0.015,
+              "mini_boss": 0.15,              
+              "mvp": 1.5
+            },
+            "fragmento_da_escuridão": {
+              "normal": 0.00002,
+              "elite": 0.0002,
+              "mini_boss": 0.002,              
+              "mvp": 0.02
+            },
+            "awakened_hollow_shoes": {
+              "normal": 0,
+              "elite": 0.0001,
+              "mini_boss": 0.001,              
+              "mvp": 0.01
+            },
+            "escudo_divino": {
+              "normal": 0,
+              "elite": 0.0001,
+              "mini_boss": 0.001,              
+              "mvp": 0.02
             }
           }
         }
@@ -355,7 +385,30 @@
     "orbe_lapine_sagrado": {
       "name": "Orbe Lapine Sagrado",
       "base_drop_percent": 0.004
-    }
+    },
+    "mini_refinadora_extreme": {
+      "name": "Mini Refinadora",
+      "base_drop_percent": 0.0005
+    },
+    "refinadora_complexa_extreme": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0
+    },
+    "fragmento_da_escuridão": {
+      "name": "Fragmento da Escuridão",
+      "base_drop_percent": 0.00002
+    },
+    "awakened_hollow_shoes": {
+      "name": "Awakened Hollow Shoes",
+      "base_drop_percent": 0
+    },
+    "escudo_divino": {
+      "name": "Escudo Divino",
+      "base_drop_percent": 0
+    }    
+
+
+    
   },
   "modifiers": {
     "rates": {
