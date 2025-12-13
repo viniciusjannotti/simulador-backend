@@ -128,7 +128,7 @@
               "mvp": 0.01
             },
             "escudo_divino": {
-              "normal": 0,
+              "normal": null,
               "elite": 0.0001,
               "mini_boss": 0.001,              
               "mvp": 0.02
@@ -408,7 +408,7 @@
     }    
 
 
-    
+
   },
   "modifiers": {
     "rates": {

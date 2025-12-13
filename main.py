@@ -288,8 +288,6 @@ def apply_caps(p_base_percent: float, p_final_percent: float) -> float:
         return 100.0
     return p_final_percent
 
-# - Calculadora para drops do tipo monster_table
-
 @app.post("/drop/calculate-monster-table")
 def calculate_monster_table(req: BatchCalculateRequest):
     """Calcula taxas finais para todos os drops de um nível tipo monster_table"""
@@ -385,10 +383,6 @@ def drop_calculate(s: Scenario):
         raise HTTPException(status_code=404, detail="Item not found")
 
     p_base = float(item.get("base_drop_percent", 0.0))
-
-    # -------------------------
-    # PROCESSAMENTO CONSUMÍVEIS
-    # -------------------------
 
     selected = set(s.consumables)
     best_big = max((BIG_CONS[c] for c in selected if c in BIG_CONS), default=0.0)
