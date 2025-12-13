@@ -46,7 +46,7 @@ GENERAL_CONS = {
     "drop_pot": 25.0,        # +25% (não funciona com cálice)
     "fusion": 25.0,          # sempre soma
     "doador": 35.0,          # sempre soma
-    "doador_rmt": 35.0,          # sempre soma
+    "doador_rmt": 35.0,      # sempre soma
 }
 
 # Consumíveis de BÔNUS FINAL (multiplicativo)
@@ -168,7 +168,7 @@ def list_monster_drops(content_id: str, level_id: str):
     for monster_id in monsters:
         monster_info.append({
             "monster_id": monster_id,
-            "name": monster_id.replace("_", " ").title()  # Converte ID para nome
+            "name": monster_id.replace("_", " ").title()
         })
     
     # Monta os dados dos drops
@@ -391,88 +391,49 @@ def drop_calculate(s: Scenario):
     # -------------------------
 
     selected = set(s.consumables)
-
-    # 1 — maior bônus dos 4 principais
     best_big = max((BIG_CONS[c] for c in selected if c in BIG_CONS), default=0.0)
 
     if best_big > 0:
         s.general_mods["consumable_big"] = best_big
 
-    # flags
     used_calice = "calice" in selected
     used_calice2 = "calice2" in selected
     used_big = used_calice or used_calice2
 
-    # 2 — consumíveis gerais SOMADOS com regras
     for key, val in GENERAL_CONS.items():
         if key not in selected:
             continue
-
         if key in ("lata", "revitalizadora"):
             if not used_big:
                 s.general_mods[key] = val
-
         elif key == "drop_pot":
             if not used_calice:
                 s.general_mods[key] = val
-
         else:
-            # fusion e doador sempre somam
             s.general_mods[key] = val
 
-    # 3 — consumíveis finais sempre somam
     for key, val in FINAL_CONS.items():
         if key in selected:
             s.final_mods[f"final_{key}"] = val
 
-    # -------------------------
-    # 4 — Maestrias (drop final), Reborn Kafra (drop final), Rankings (Drop final)
-    # -------------------------
+    ADV_MASTERY = {"adv_1": 1.0, "adv_2": 3.0, "adv_3": 5.0, "adv_4": 8.0}
+    BIRTH_MASTERY = {"birth_1": 1.0, "birth_2": 2.0, "birth_3": 3.0, "birth_4": 5.0}
+    REBORN_MASTERY = {"reborn_1": 1.0, "reborn_2": 2.0, "reborn_3": 3.0, "reborn_4": 5.0, "reborn_5": 8.0}
 
-    ADV_MASTERY = {
-        "adv_1": 1.0,
-        "adv_2": 3.0,
-        "adv_3": 5.0,
-        "adv_4": 8.0,
-    }
-
-    BIRTH_MASTERY = {
-        "birth_1": 1.0,
-        "birth_2": 2.0,
-        "birth_3": 3.0,
-        "birth_4": 5.0,
-    }
-
-    REBORN_MASTERY = {
-        "reborn_1": 1.0,
-        "reborn_2": 2.0,
-        "reborn_3": 3.0,
-        "reborn_4": 5.0,
-        "reborn_5": 8.0,
-    }
-
-
-    # Maestria do Aventureiro — apenas 1 nível pode ser selecionado
     for key, val in ADV_MASTERY.items():
         if key in selected:
             s.final_mods["adv_mastery"] = val
-            break   # garante que só um nível será usado
+            break
 
-    # Maestria de Aniversário — apenas 1 nível também
     for key, val in BIRTH_MASTERY.items():
         if key in selected:
             s.final_mods["birth_mastery"] = val
             break
 
-    # Reborn Kafra — apenas 1 nível também
     for key, val in REBORN_MASTERY.items():
         if key in selected:
             s.final_mods["reborn_mastery"] = val
             break
-
-    # -------------------------
-    # CÁLCULO FINAL
-    # -------------------------
 
     B_general = sum(s.general_mods.values()) if s.general_mods else 0.0
     B_final = sum(s.final_mods.values()) if s.final_mods else 0.0
@@ -481,10 +442,7 @@ def drop_calculate(s: Scenario):
     p_final = p_inter * (1 + B_final / 100.0)
     p_final = apply_caps(p_base, p_final)
 
-
-    # --- Cálculo da florzinha ---
-
-    base_flor = 2.0  # sempre fixo
+    base_flor = 2.0
     flor_inter = base_flor * (1 + B_general / 100.0)
     flor_final = flor_inter * (1 + B_final / 100.0)
     flor_final = apply_caps(base_flor, flor_final)
@@ -495,9 +453,7 @@ def drop_calculate(s: Scenario):
     prob_at_least_one = 1 - (1 - p_final_frac) ** num_kills
     expected = num_kills * p_final_frac
     expected_kills_to_one = (1 / p_final_frac) if p_final_frac > 0 else None
-    median_kills_50 = (
-        (math.log(0.5) / math.log(1 - p_final_frac)) if p_final_frac > 0 else None
-    )
+    median_kills_50 = (math.log(0.5) / math.log(1 - p_final_frac)) if p_final_frac > 0 else None
 
     return {
         "item_id": s.item_id,
