@@ -245,6 +245,17 @@ def calculate_all_drops(req: BatchCalculateRequest):
     for key, val in FINAL_CONS.items():
         if key in selected:
             final_mods[f"final_{key}"] = val
+
+    # Lógica condicional da reputação domínio
+     # Só aplica se for conteúdo dominio
+    if req.content_id == "dominio":
+        # Mantém o bônus que veio do frontend
+        pass
+    else:
+        # Remove o bônus se não for domínio
+        if "dominio_reputation" in general_mods:
+            del general_mods["dominio_reputation"]
+            
     
     # Calcula para cada item
     B_general = sum(general_mods.values())
@@ -338,30 +349,15 @@ def calculate_monster_table(req: BatchCalculateRequest):
         if key in selected:
             final_mods[f"final_{key}"] = val
     
-    # ========================================
-    # NOVA LÓGICA: Reputação Domínio
-    # ========================================
-    dominio_rep_bonus = general_mods.get("dominio_reputation", 0)
-    
-    # Verifica se está no Domínio e se deve aplicar o bônus
-    is_dominio = req.content_id == "dominio"
-    level_num = int(req.level_id)
-    
-    # Lógica condicional da reputação domínio
-    if is_dominio and dominio_rep_bonus > 0:
-        # Se for domínio e tiver bônus de reputação
-        if dominio_rep_bonus <= 9:  # Se bonus for < 9
-            pass  # Bônus já está em general_mods
-        elif dominio_rep_bonus in [10]:  # Ultimate 1 e 2
-            # Só aplica se for nível 10 (20%)
-            if level_num in [1,2,3,4]:  # Níveis < Ultimate 1 e 2
-                # Remove o bônus se não for nível 10
-                general_mods["dominio_reputation"] = 45.0  # Ajusta para 45% (nível 10)
-        else:
-            pass
 
-    if req.content_id != "dominio" :
-        general_mods["dominio_reputation"] = 0
+    # Só aplica se for conteúdo dominio
+    if req.content_id == "dominio":
+        # Mantém o bônus que veio do frontend
+        pass
+    else:
+        # Remove o bônus se não for domínio
+        if "dominio_reputation" in general_mods:
+            del general_mods["dominio_reputation"]
 
 
 
