@@ -143,18 +143,286 @@
       "levels": {
         "1": {
           "name": "Domínio Normal",
-          "monsters": ["normal", "normal_r", "horda", "fate", "mvp1", "mvp2"],
+          "monsters": ["normal", "ranged", "horda", "fate", "mvp_mapa", "mvp_instancia"],
           "drops": {
             "ticket_sombrio": {
               "normal": 0.04,
-              "normal_r": 0.04,
+              "ranged": 0.04,
               "horda": 0.1,
               "fate": 10.0,
-              "mvp1": 100,
-              "mvp2": 100
+              "mvp_mapa": 100,
+              "mvp_instancia": 100
+            },
+            "assault_suit": {
+              "normal": 0,
+              "ranged": 0,
+              "horda": 0,
+              "fate": 0,
+              "mvp_mapa": 0,
+              "mvp_instancia": 0.05
+            },
+            "rabbit_family_balloonlt": {
+              "normal": 0,
+              "ranged": 0,
+              "horda": 0,
+              "fate": 0,
+              "mvp_mapa": 0,
+              "mvp_instancia": 0.05
+            },
+            "diadema_do_serafim": {
+              "normal": 0,
+              "ranged": 0,
+              "horda": 0,
+              "fate": 0,
+              "mvp_mapa": 0.05,
+              "mvp_instancia": 0.05
+            },
+            "deus_ex_machina": {
+              "normal": 0,
+              "ranged": 0,
+              "horda": 0,
+              "fate": 0.005,
+              "mvp_mapa": 0.05,
+              "mvp_instancia": 0.05
             }
           }
-        }
+        },
+        "2": {
+          "name": "Domínio Hard",
+          "monsters": ["normal", "ranged", "horda", "fate", "mvp_mapa", "mvp_instancia"],
+          "drops": {
+            "ticket_sombrio_avaçado": {
+              "normal": 0.01,
+              "ranged": 0.01,
+              "horda": 0.3,
+              "fate": 20.0,
+              "mvp_mapa": 20.0,
+              "mvp_instancia": 30.0
+            },
+            "vestido_da_celinelt": {
+              "normal": 0,
+              "ranged": 0,
+              "horda": 0,
+              "fate": 0,
+              "mvp_mapa": 0,
+              "mvp_instancia": 0.05
+            },
+            "elemental_possesion": {
+              "normal": 0,
+              "ranged": 0,
+              "horda": 0,
+              "fate": 0,
+              "mvp_mapa": 0,
+              "mvp_instancia": 0.04
+            },
+            "sobretudo_do_mestre": {
+              "normal": 0,
+              "ranged": 0,
+              "horda": 0,
+              "fate": 0,
+              "mvp_mapa": 0.05,
+              "mvp_instancia": 0.05
+            },
+            "fones_de_ouvido_do_campeao": {
+              "normal": 0,
+              "ranged": 0,
+              "horda": 0,
+              "fate": 0,
+              "mvp_mapa": 0.05,
+              "mvp_instancia": 0.05
+            },
+            "capa_do_carrasco": {
+              "normal": 0,
+              "ranged": 0,
+              "horda": 0,
+              "fate": 0.005,
+              "mvp_mapa": 0.05,
+              "mvp_instancia": 0.05
+            },
+            "adorno_florido": {
+              "normal": 0,
+              "ranged": 0,
+              "horda": 0,
+              "fate": 0.005,
+              "mvp_mapa": 0.05,
+              "mvp_instancia": 0.05
+            }                       
+          }
+        },  
+        "3": {
+          "name": "Domínio Unreal",
+          "monsters": ["normal", "ranged", "horda", "fate", "mvp_mapa", "mvp_instancia"],
+          "drops": {
+            "floco_glacial": {
+              "normal": 0.1,
+              "ranged": 0.1,
+              "horda": 0.3,
+              "fate": 30.0,
+              "mvp_mapa": 30.0,
+              "mvp_instancia": 40.0
+            },
+            "energia_congelada": {
+              "normal": 0.01,
+              "ranged": 0.01,
+              "horda": 0.1,
+              "fate": 1.0,
+              "mvp_mapa": 10,
+              "mvp_instancia": 20
+            },
+            "cristal_shadow_bota": {
+              "normal": 0.0001,
+              "ranged": 0.0001,
+              "horda": 0.0003,
+              "fate": 0.001,
+              "mvp_mapa": 0.01,
+              "mvp_instancia": 0.01
+            },
+            "album_de_cartas_dunreal": {
+              "normal": 0.0001,
+              "ranged": 0.0001,
+              "horda": 0.0003,
+              "fate": 0.001,
+              "mvp_mapa": 0.01,
+              "mvp_instancia": 0.01
+            },
+            "gloria_real": {
+              "normal": 0,
+              "ranged": 0,
+              "horda": 0,
+              "fate": 0,
+              "mvp_mapa": 0,
+              "mvp_instancia": 0.03
+            }            
+          }
+        },
+        "4": {
+          "name": "Domínio Pesadelo",
+          "monsters": ["normal", "ranged", "horda", "fate", "mvp_mapa", "mvp_instancia"],
+          "drops": {
+            "nucleo_pesadelo": {
+              "normal": 0.1,
+              "ranged": 0.15,
+              "horda": 0.3,
+              "fate": 3,
+              "mvp_mapa": 5,
+              "mvp_instancia": 5
+            },
+            "cristal_shadow_escudo": {
+              "normal": 0.0001,
+              "ranged": 0.0001,
+              "horda": 0.0003,
+              "fate": 0.003,
+              "mvp_mapa": 0.003,
+              "mvp_instancia": 0.003
+            },
+            "album_de_cartas_dpesadelo": {
+              "normal": 0.0001,
+              "ranged": 0.0001,
+              "horda": 0.0003,
+              "fate": 0.003,
+              "mvp_mapa": 0.003,
+              "mvp_instancia": 0.003
+            },
+            "universalis": {
+              "normal": 0,
+              "ranged": 0,
+              "horda": 0,
+              "fate": 0.001,
+              "mvp_mapa": 0.02,
+              "mvp_instancia": 0.02
+            },
+            "colar_de_yggdrasil": {
+              "normal": 0,
+              "ranged": 0,
+              "horda": 0,
+              "fate": 0,
+              "mvp_mapa": 0,
+              "mvp_instancia": 0.02
+            }            
+          }
+        },
+        "5": {
+          "name": "Domínio Ultimate 1",
+          "monsters": ["normal", "ranged", "fate", "mvp_mapa"],
+          "drops": {
+            "runa_corrompida": {
+              "normal": 0.1,
+              "ranged": 0.1,              
+              "fate": 1,
+              "mvp_mapa": 10
+            },
+            "minerio_ultimate": {
+              "normal": 0.01,
+              "ranged": 0.01,              
+              "fate": 0.05,
+              "mvp_mapa": 0.1
+            },
+            "cristal_shadow_arma": {
+              "normal": 0.0001,
+              "ranged": 0.0001,              
+              "fate": 0.001,
+              "mvp_mapa": 0.01
+            },
+            "murderous_grudge": {
+              "normal": 0,
+              "ranged": 0,              
+              "fate": 0.001,
+              "mvp_mapa": 0.01
+            },
+            "amuleto_da_criacao": {
+              "normal": 0,
+              "ranged": 0,              
+              "fate": 0,
+              "mvp_mapa": 0.01
+            }
+          }
+        },
+        "6": {
+          "name": "Domínio Ultimate 2",
+          "monsters": ["horda", "fate", "mvp_instancia"],
+          "drops": {
+            "runa_corrompida": {
+              "horda": 0.3,              
+              "fate": 3,
+              "mvp_instancia": 30
+            },
+            "runa_corrompida_superior": {
+              "horda": 0.1,              
+              "fate": 1,
+              "mvp_instancia": 10
+            },
+            "cristal_shadow_arma2": {
+              "horda": 0.0002,              
+              "fate": 0.0003,
+              "mvp_instancia": 0.03
+            },
+            "album_de_cartas_dultimate2": {
+              "horda": 0.0001,              
+              "fate": 0.001,
+              "mvp_instancia": 0.01
+            },
+            "rancor_assassino": {
+              "horda": 0.0001,              
+              "fate": 0.0003,
+              "mvp_instancia": 0.03
+            },
+            "amuleto_da_criacao2": {
+              "horda": 0.0001,              
+              "fate": 0.0003,
+              "mvp_instancia": 0.03
+            },
+            "loyal_servant": {
+              "horda": 0.0001,              
+              "fate": 0.001,
+              "mvp_instancia": 0.01
+            },
+            "starry_sky_twin_prime": {
+              "horda": 0,              
+              "fate": 0.0001,
+              "mvp_instancia": 0.01
+            }
+          }
+        }                  
       }
     }  
   },
@@ -433,7 +701,142 @@
     "ticket_sombrio": {
       "name": "Cápsula de Ticket Sombrio",
       "base_drop_percent": 0.05
+    },
+    "assault_suit": {
+      "name": "Assault Suit",
+      "base_drop_percent": 0
+    },
+    "rabbit_family_balloonlt": {
+      "name": "Rabbit Family Balloonlt",
+      "base_drop_percent": 0
+    },
+    "diadema_do_serafim": {
+      "name": "Diadema do Serafim",
+      "base_drop_percent": 0
+    },
+    "deus_ex_machina": {
+      "name": "Deus Ex Machina",
+      "base_drop_percent": 0
+    },
+    "ticket_sombrio_avaçado": {
+      "name": "Cápsula Avançada de Ticket Sombrio",
+      "base_drop_percent": 0
+    },
+    "vestido_da_celinelt": {
+      "name": "Vestido da Celinellt",
+      "base_drop_percent": 0
+    },
+    "elemental_possesion": {
+      "name": "Elemental Possesion",
+      "base_drop_percent": 0
+    },
+    "sobretudo_do_mestre": {
+      "name": "Sobretudo do Mestre",
+      "base_drop_percent": 0
+    },
+    "fones_de_ouvido_do_campeao": {
+      "name": "Fones de Ouvido do Campeão",
+      "base_drop_percent": 0
+    },
+    "capa_do_carrasco": {
+      "name": "Capa do Carrasco",
+      "base_drop_percent": 0
+    },
+    "adorno_florido": {
+      "name": "Adorno Florido",
+      "base_drop_percent": 0
+    },
+    "floco_glacial": {
+      "name": "Floco Glacial",
+      "base_drop_percent": 0.1
+    },
+    "energia_congelada": {
+      "name": "Energia Congelada",
+      "base_drop_percent": 0.01
+    },
+    "cristal_shadow_bota": {
+      "name": "Cristal Shadow Bota",
+      "base_drop_percent": 0.0001
+    },
+    "album_de_cartas_dunreal": {
+      "name": "Álbum de Cartas D'Unreal",
+      "base_drop_percent": 0.0001
+    },
+    "gloria_real": {
+      "name": "Glória Real",
+      "base_drop_percent": 0
+    },
+    "nucleo_pesadelo": {
+      "name": "Núcleo Pesadelo",
+      "base_drop_percent": 0.1
+    },
+    "cristal_shadow_escudo": {
+      "name": "Cristal Shadow Escudo",
+      "base_drop_percent": 0.0001
+    },
+    "album_de_cartas_dpesadelo": {
+      "name": "Álbum de Cartas D'Pesadelo",
+      "base_drop_percent": 0.0001
+    },
+    "universalis": {
+      "name": "Universalis",
+      "base_drop_percent": 0
+    },
+    "colar_de_yggdrasil": {
+      "name": "Colar de Yggdrasil",
+      "base_drop_percent": 0
+    },
+    "runa_corrompida": {
+      "name": "Runa Corrompida",
+      "base_drop_percent": 0.1
+    },
+    "minerio_ultimate": {
+      "name": "Minério Ultimate",
+      "base_drop_percent": 0.01
+    },
+    "cristal_shadow_arma": {
+      "name": "Cristal Shadow Arma",
+      "base_drop_percent": 0.0001
+    },
+    "murderous_grudge": {
+      "name": "Murderous Grudge",
+      "base_drop_percent": 0
+    },
+    "amuleto_da_criacao": {
+      "name": "Amuleto da Criação",
+      "base_drop_percent": 0
+    },
+    "runa_corrompida_superior": {
+      "name": "Runa Corrompida Superior",
+      "base_drop_percent": 0.1
+    },
+    "cristal_shadow_arma2": {
+      "name": "Cristal Shadow Arma 2",
+      "base_drop_percent": 0.0002
+    },
+    "album_de_cartas_dultimate2": {
+      "name": "Álbum de Cartas D'Ultimate 2",
+      "base_drop_percent": 0.0001
+    },
+    "rancor_assassino": {
+      "name": "Rancor Assassino",
+      "base_drop_percent": 0.0001
+    },
+    "amuleto_da_criacao2": {
+      "name": "Amuleto da Criação 2",
+      "base_drop_percent": 0.0001
+    },
+    "loyal_servant": {
+      "name": "Loyal Servant",
+      "base_drop_percent": 0.0001
+    },
+    "starry_sky_twin_prime": {
+      "name": "Starry Sky Twin Prime",
+      "base_drop_percent": 0
     }
+  
+    
+
 
   },
   "modifiers": {
