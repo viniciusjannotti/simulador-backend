@@ -136,8 +136,29 @@
           }
         }
       }
-    }
+    },
+    "dominio": {
+      "name": "Domínio",
+      "type": "monster_table",
+      "levels": {
+        "1": {
+          "name": "Domínio Normal",
+          "monsters": ["normal", "normal_r", "horda", "fate", "mvp1", "mvp2"],
+          "drops": {
+            "ticket_sombrio": {
+              "normal": 0.04,
+              "normal_r": 0.04,
+              "horda": 0.1,
+              "fate": 10.0,
+              "mvp1": 100,
+              "mvp2": 100
+            }
+          }
+        }
+      }
+    }  
   },
+
   "items": {
     "florzinha": {
       "name": "Florzinha",
@@ -405,9 +426,14 @@
     "escudo_divino": {
       "name": "Escudo Divino",
       "base_drop_percent": 0
-    }    
+    },
 
 
+
+    "ticket_sombrio": {
+      "name": "Cápsula de Ticket Sombrio",
+      "base_drop_percent": 0.05
+    }
 
   },
   "modifiers": {
