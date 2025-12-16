@@ -77,6 +77,60 @@
         }
       }
     },
+    "fenda_dimensional": {
+      "name": "Fenda Dimensional",
+      "levels": {
+        "1": {
+          "name": "1º Andar (Infernal)",
+          "drops": ["refinadora_complexa_infernal1", "martelo_sombrio_91", "twinhead_dragon_boots1", "twinhead_dragon_scale1"]
+        },
+        "2": {
+          "name": "2º Andar (Infernal)",
+          "drops": ["refinadora_complexa_infernal2", "martelo_sombrio_92", "twinhead_dragon_boots2", "twinhead_dragon_scale2"]
+        },
+        "3": {
+          "name": "3º Andar (Infernal)",
+          "drops": ["refinadora_complexa_infernal3", "martelo_sombrio_93", "twinhead_dragon_boots3", "twinhead_dragon_scale3"]
+        },
+        "4": {
+          "name": "4º Andar (Pesadelo)",
+          "drops": ["refinadora_complexa_pesadelo1", "martelo_sombrio_94", "martelo_sombrio_104", "gloria_real4", "starry_sky_twin_prime4", "unniversallis4"]
+        },
+        "5": {
+          "name": "5º Andar (Pesadelo)",
+          "drops": ["refinadora_complexa_pesadelo2", "martelo_sombrio_95", "martelo_sombrio_105", "gloria_real5", "starry_sky_twin_prime5", "unniversallis5"]
+        },
+        "6": {
+          "name": "6º Andar (Pesadelo)",
+          "drops": ["refinadora_complexa_pesadelo3", "martelo_sombrio_96", "martelo_sombrio_106", "gloria_real6", "starry_sky_twin_prime6", "unniversallis6"]
+        },
+        "7": {
+          "name": "7º Andar (Ultimate)",
+          "drops": ["refinadora_complexa_ultimate7", "martelo_sombrio_97", "martelo_sombrio_107", "artefato_verusfenda7", "colar_de_yggdrasil7", "overdrive_rampage7"]
+        },
+        "8": {
+          "name": "8º Andar (Ultimate)",
+          "drops": ["refinadora_complexa_ultimate8", "martelo_sombrio_98", "martelo_sombrio_108", "artefato_verusfenda8", "colar_de_yggdrasil8", "overdrive_rampage8", "bota_de_diamante_da_dualidade8","tempora_ringlt8"]
+        },
+        "9": {
+          "name": "9º Andar (Ultimate)",
+          "drops": ["refinadora_complexa_ultimate9", "martelo_sombrio_99", "martelo_sombrio_109", "artefato_verusfenda9", "colar_de_yggdrasil9", "overdrive_rampage9", "bota_de_diamante_da_dualidade9","tempora_ringlt9"]
+        },
+        "10": {
+          "name": "10º Andar (Abissal)",
+          "drops": ["fighter10", "thewall10", "magicshield10"]
+        },
+        "11": {
+          "name": "11º Andar (Abissal)",
+          "drops": ["fighter11", "thewall11", "magicshield11"]
+        },
+        "12": {
+          "name": "12º Andar (Abissal)",
+          "drops": ["fighter12", "thewall12", "magicshield12"]
+        }
+      }
+    },
+
     "glast_heim_extreme": {
       "name": "Glast Heim Extreme",
       "type": "monster_table",
@@ -659,6 +713,250 @@
     "epifania_18": {
       "name": "Epifania",
       "base_drop_percent": 0.045
+    },
+    "refinadora_complexa_infernal1": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0.04
+    },
+    "martelo_sombrio_91": {
+      "name": "Martelo Sombrio +9",
+      "base_drop_percent": 0.03
+    },
+    "twinhead_dragon_boots1": {
+      "name": "Twinhead Dragon Boots",
+      "base_drop_percent": 0.036
+    },
+    "twinhead_dragon_scale1": {
+      "name": "Twinhead Dragon Scale",
+      "base_drop_percent": 0.036
+    },
+    "refinadora_complexa_infernal2": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0.06
+    },
+    "martelo_sombrio_92": {
+      "name": "Martelo Sombrio +9",
+      "base_drop_percent": 0.045
+    },
+    "twinhead_dragon_boots2": {
+      "name": "Twinhead Dragon Boots",
+      "base_drop_percent": 0.051
+    },
+    "twinhead_dragon_scale2": {
+      "name": "Twinhead Dragon Scale",
+      "base_drop_percent": 0.051
+    },
+    "refinadora_complexa_infernal3": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0.08
+    },
+    "martelo_sombrio_93": {
+      "name": "Martelo Sombrio +9",
+      "base_drop_percent": 0.06
+    },
+    "twinhead_dragon_boots3": {
+      "name": "Twinhead Dragon Boots",
+      "base_drop_percent": 0.075
+    },
+    "twinhead_dragon_scale3": {
+      "name": "Twinhead Dragon Scale",
+      "base_drop_percent": 0.075
+    },
+    "refinadora_complexa_pesadelo1": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0.1
+    },
+    "martelo_sombrio_94": {
+      "name": "Martelo Sombrio +9",
+      "base_drop_percent": 0.075
+    },
+    "martelo_sombrio_104": {
+      "name": "Martelo Sombrio +10",
+      "base_drop_percent": 0.003
+    },
+    "gloria_real4": {
+      "name": "Glória Real",
+      "base_drop_percent": 0.0036
+    },
+    "starry_sky_twin_prime4": {
+      "name": "Starry Sky Twin Prime",
+      "base_drop_percent": 0.0027
+    },
+    "unniversallis4": {
+      "name": "Universalis",
+      "base_drop_percent": 0.0036
+    },
+    "refinadora_complexa_pesadelo2": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0.12
+    },
+    "martelo_sombrio_95": {
+      "name": "Martelo Sombrio +9",
+      "base_drop_percent": 0.09
+    },
+    "martelo_sombrio_105": {
+      "name": "Martelo Sombrio +10",
+      "base_drop_percent": 0.006
+    },
+    "gloria_real5": {
+      "name": "Glória Real",
+      "base_drop_percent": 0.0051
+    },
+    "starry_sky_twin_prime5": {
+      "name": "Starry Sky Twin Prime",
+      "base_drop_percent": 0.0037
+    },
+    "unniversallis5": {
+      "name": "Universalis",
+      "base_drop_percent": 0.0051
+    },
+    "refinadora_complexa_pesadelo3": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0.14
+    },
+    "martelo_sombrio_96": {
+      "name": "Martelo Sombrio +9",
+      "base_drop_percent": 0.1
+    },
+    "martelo_sombrio_106": {
+      "name": "Martelo Sombrio +10",
+      "base_drop_percent": 0.009
+    },
+    "gloria_real6": {
+      "name": "Glória Real",
+      "base_drop_percent": 0.0075
+    },
+    "starry_sky_twin_prime6": {
+      "name": "Starry Sky Twin Prime",
+      "base_drop_percent": 0.0055
+    },
+    "unniversallis6": {
+      "name": "Universalis",
+      "base_drop_percent": 0.0075
+    },
+    "refinadora_complexa_ultimate7": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0.16
+    },
+    "martelo_sombrio_97": {
+      "name": "Martelo Sombrio +9",
+      "base_drop_percent": 0.12
+    },
+    "martelo_sombrio_107": {
+      "name": "Martelo Sombrio +10",
+      "base_drop_percent": 0.012
+    },
+    "artefato_verusfenda7": {
+      "name": "Artefato Verus (Fenda)",
+      "base_drop_percent": 0.001
+    },
+    "colar_de_yggdrasil7": {
+      "name": "Colar de Yggdrasil",
+      "base_drop_percent": 0.0036
+    },
+    "overdrive_rampage7": {
+      "name": "Overdrive Rampage",
+      "base_drop_percent": 0.0036
+    },
+    "refinadora_complexa_ultimate8": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0.18
+    },
+    "martelo_sombrio_98": {
+      "name": "Martelo Sombrio +9",
+      "base_drop_percent": 0.13
+    },
+    "martelo_sombrio_108": {
+      "name": "Martelo Sombrio +10",
+      "base_drop_percent": 0.015
+    },
+    "artefato_verusfenda8": {
+      "name": "Artefato Verus (Fenda)",
+      "base_drop_percent": 0.003
+    },
+    "colar_de_yggdrasil8": {
+      "name": "Colar de Yggdrasil",
+      "base_drop_percent": 0.0051
+    },
+    "overdrive_rampage8": {
+      "name": "Overdrive Rampage",
+      "base_drop_percent": 0.0051
+    },
+    "bota_de_diamante_da_dualidade8": {
+      "name": "Bota de Diamante da Dualidade",
+      "base_drop_percent": 0.0051
+    },
+    "tempora_ringlt8": {
+      "name": "Tempora Ring-LT",
+      "base_drop_percent": 0.0051
+    },
+    "refinadora_complexa_ultimate9": {
+      "name": "Refinadora Complexa",
+      "base_drop_percent": 0.2
+    },
+    "martelo_sombrio_99": {
+      "name": "Martelo Sombrio +9",
+      "base_drop_percent": 0.15
+    },
+    "martelo_sombrio_109": {
+      "name": "Martelo Sombrio +10",
+      "base_drop_percent": 0.018
+    },
+    "artefato_verusfenda9": {
+      "name": "Artefato Verus (Fenda)",
+      "base_drop_percent": 0.005
+    },
+    "colar_de_yggdrasil9": {
+      "name": "Colar de Yggdrasil",
+      "base_drop_percent": 0.0075
+    },
+    "overdrive_rampage9": {
+      "name": "Overdrive Rampage",
+      "base_drop_percent": 0.0075
+    },
+    "bota_de_diamante_da_dualidade9": {
+      "name": "Bota de Diamante da Dualidade",
+      "base_drop_percent": 0.0075
+    },
+    "tempora_ringlt9": {
+      "name": "Tempora Ring-LT",
+      "base_drop_percent": 0.0075
+    },
+    "fighter10": {
+      "name": "Fighter",
+      "base_drop_percent": 0.003
+    },
+    "thewall10": {
+      "name": "The Wall",
+      "base_drop_percent": 0.003
+    },
+    "magicshield10": {
+      "name": "Magic Shield",
+      "base_drop_percent": 0.003
+    },
+    "fighter11": {
+      "name": "Fighter",
+      "base_drop_percent": 0.004
+    },
+    "thewall11": {
+      "name": "The Wall",
+      "base_drop_percent": 0.004
+    },
+    "magicshield11": {
+      "name": "Magic Shield",
+      "base_drop_percent": 0.004
+    },
+    "fighter12": {
+      "name": "Fighter",
+      "base_drop_percent": 0.0075
+    },
+    "thewall12": {
+      "name": "The Wall",
+      "base_drop_percent": 0.0075
+    },
+    "magicshield12": {
+      "name": "Magic Shield",
+      "base_drop_percent": 0.0075
     },
     
 
