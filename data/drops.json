@@ -130,6 +130,156 @@
         }
       }
     },
+    
+    "trial": {
+      "name": "Trial",
+      "type": "monster_table",
+      "levels": {
+        "1": {
+          "name": "Normal",
+          "monsters": ["1_andar", "2_andar", "3_andar"],
+          "drops": {
+            "ruler_of_the_end": {
+              "1_andar": 0.002,
+              "2_andar": 0.003,
+              "3_andar":0.0045  
+            },
+            "poder_oculto_sa1": {
+              "1_andar": 0.002,
+              "2_andar": 0.003,
+              "3_andar":0.0045 
+            },
+            "poder_oculto_sc3": {
+              "1_andar": 0.002,
+              "2_andar": 0.003,
+              "3_andar":0.0045 
+            },
+            "poder_oculto_nw1": {
+              "1_andar": 0.002,
+              "2_andar": 0.003,
+              "3_andar":0.0045 
+            }
+          },
+          "hard": {
+            "name": "Hard",
+            "monsters": ["1_andar_hard", "2_andar_hard", "3_andar_hard"],
+            "drops": {
+              "witch_zilant_card": {
+                "1_andar_hard": 0.002,
+                "2_andar_hard": 0.003,
+                "3_andar_hard":0.0045 
+              },
+              "granada_do_poder": {
+                "1_andar_hard": 0.002,
+                "2_andar_hard": 0.003,
+                "3_andar_hard":0.0045 
+              }
+            }          
+          },
+          "extreme": {
+            "name": "Extreme",
+            "monsters": ["1_andar_extreme", "2_andar_extreme", "3_andar_extreme"],
+            "drops": {
+              "anel_do_rei_abissal_desperto": {
+                "1_andar_extreme": 0.002,
+                "2_andar_extreme": 0.003,
+                "3_andar_extreme":0.0045 
+              },
+              "old_king_groza_card": {
+                "1_andar_extreme": 0.002,
+                "2_andar_extreme": 0.003,
+                "3_andar_extreme":0.0045 
+              }
+            }
+          },
+          "unreal": {
+            "name": "Unreal",
+            "monsters": ["1_andar_unreal", "2_andar_unreal", "3_andar_unreal"],
+            "drops": {
+              "abyssal_king": {
+                "1_andar_unreal": 0.002,
+                "2_andar_unreal": 0.003,
+                "3_andar_unreal":0.0045 
+              },
+              "foreign_conquerer": {
+                "1_andar_unreal": 0.002,
+                "2_andar_unreal": 0.003,
+                "3_andar_unreal":0.0045 
+              }
+            }          
+          },
+          "savage": {
+            "name": "Savage",
+            "monsters": ["1_andar_savage", "2_andar_savage", "3_andar_savage"],
+            "drops": {
+              "ameratat": {
+                "1_andar_savage": 0.002,
+                "2_andar_savage": 0.003,
+                "3_andar_savage":0.0045 
+              },
+              "elder_dragon_zilant_card": {
+                "1_andar_savage": 0.002,
+                "2_andar_savage": 0.003,
+                "3_andar_savage":0.0045 
+              }
+            }          
+          },
+          "infernal": {
+            "name": "Infernal",
+            "monsters": ["1_andar_infernal", "2_andar_infernal", "3_andar_infernal"],
+            "drops": {
+              "caixa_das_estacoes": {
+                "1_andar_infernal": 0.002,
+                "2_andar_infernal": 0.003,
+                "3_andar_infernal":0.0045 
+              },
+              "half_blood_princess_meer_card": {
+                "1_andar_infernal": 0.002,
+                "2_andar_infernal": 0.003,
+                "3_andar_infernal":0.0045 
+              }
+            }          
+          },
+          "pesadelo": {
+            "name": "Pesadelo",
+            "monsters": ["1_andar_pesadelo", "2_andar_pesadelo", "3_andar_pesadelo"],
+            "drops": {
+              "ghostfire": {
+                "1_andar_pesadelo": 0.0007,
+                "2_andar_pesadelo": 0.001,
+                "3_andar_pesadelo":0.0015 
+              },
+              "old_king_groza_of_abyss_card": {
+                "1_andar_pesadelo": 0.0007,
+                "2_andar_pesadelo": 0.001,
+                "3_andar_pesadelo":0.0015 
+              },
+              "princess_meer_card": {
+                "1_andar_pesadelo": 0.0007,
+                "2_andar_pesadelo": 0.001,
+                "3_andar_pesadelo":0.0015 
+              }
+            }          
+          },
+          "ultimate": {
+            "name": "Ultimate",
+            "monsters": ["1_andar_ultimate", "2_andar_ultimate", "3_andar_ultimate"],
+            "drops": {
+              "caixa_reform_das_estacoes": {
+                "1_andar_ultimate": 0.0007,
+                "2_andar_ultimate": 0.001,
+                "3_andar_ultimate":0.0015 
+              },
+              "album_de_cartas_jro": {
+                "1_andar_ultimate": 0.0007,
+                "2_andar_ultimate": 0.001,
+                "3_andar_ultimate":0.0015 
+              }              
+            }          
+          }
+        }
+      }
+    },
 
     "glast_heim_extreme": {
       "name": "Glast Heim Extreme",
@@ -959,6 +1109,102 @@
       "base_drop_percent": 0.0075
     },
     
+
+
+
+
+
+
+
+
+
+
+
+    "ruler_of_the_ends": {
+      "name": "Ruler of the Ends",
+      "base_drop_percent": 0
+    },
+    "poder_oculto_nw1": {
+      "name": "Poder Oculto NW I",
+      "base_drop_percent": 0
+    },
+    "poder_oculto_sc3": {
+      "name": "Poder Oculto SC III",
+      "base_drop_percent": 0
+    },
+    "poder_oculto_sa1": {
+      "name": "Poder Oculto SA I",
+      "base_drop_percent": 0
+    },
+    "witch_zilant_card": {
+      "name": "Witch Zilant Card",
+      "base_drop_percent": 0.0001
+    },
+    "granada_do_poder": {
+      "name": "Granada do Poder",
+      "base_drop_percent": 0.01
+    },
+    "anel_do_rei_abissal_desperto": {
+      "name": "Anel do Rei Abissal Desperto",
+      "base_drop_percent": 0
+    },
+    "old_king_groza_card": {
+      "name": "Old King Groza Card",
+      "base_drop_percent": 0.0001
+    },
+    "abyssal_king": {
+      "name": "Abyssal King",
+      "base_drop_percent": 0.001
+    },
+    "foreign_conquerer": {
+      "name": "Foreign Conquerer",
+      "base_drop_percent": 0.001
+    },
+    "ameratat": {
+      "name": "Ameratat",
+      "base_drop_percent": 0.001
+    },
+    "elder_dragon_zilant_card": {
+      "name": "Elder Dragon Zilant Card",
+      "base_drop_percent": 0.0001
+    },
+    "caixa_das_estacoes": {
+      "name": "Caixa das Estações",
+      "base_drop_percent": 0.05
+    },
+    "half_blood_princess_meer_card": {
+      "name": "Half Blood Princess Meer Card",
+      "base_drop_percent": 0.0001
+    },
+    "ghostfire": {
+      "name": "Ghostfire",
+      "base_drop_percent": 0.001
+    },
+    "old_king_groza_of_abyss_card": {
+      "name": "Old King Groza of Abyss Card",
+      "base_drop_percent": 0.0001
+    },
+    "princess_meer_card": {
+      "name": "Princess Meer Card",
+      "base_drop_percent": 0.0001
+    },
+    "caixa_reform_das_estacoes": {
+      "name": "Caixa Reform das Estações",
+      "base_drop_percent": 0.02
+    },
+    "album_de_cartas_jro": {
+      "name": "Álbum de Cartas JRO",
+      "base_drop_percent": 0.0001
+    },
+
+
+
+
+    
+
+
+
+
 
 
     "fragmento_sagrado": {
