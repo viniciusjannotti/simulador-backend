@@ -159,124 +159,124 @@
               "2_andar": 0.003,
               "3_andar":0.0045 
             }
-          },
-          "hard": {
-            "name": "Hard",
-            "monsters": ["1_andar_hard", "2_andar_hard", "3_andar_hard"],
-            "drops": {
-              "witch_zilant_card": {
-                "1_andar_hard": 0.002,
-                "2_andar_hard": 0.003,
-                "3_andar_hard":0.0045 
-              },
-              "granada_do_poder": {
-                "1_andar_hard": 0.002,
-                "2_andar_hard": 0.003,
-                "3_andar_hard":0.0045 
-              }
-            }          
-          },
-          "extreme": {
-            "name": "Extreme",
-            "monsters": ["1_andar_extreme", "2_andar_extreme", "3_andar_extreme"],
-            "drops": {
-              "anel_do_rei_abissal_desperto": {
-                "1_andar_extreme": 0.002,
-                "2_andar_extreme": 0.003,
-                "3_andar_extreme":0.0045 
-              },
-              "old_king_groza_card": {
-                "1_andar_extreme": 0.002,
-                "2_andar_extreme": 0.003,
-                "3_andar_extreme":0.0045 
-              }
-            }
-          },
-          "unreal": {
-            "name": "Unreal",
-            "monsters": ["1_andar_unreal", "2_andar_unreal", "3_andar_unreal"],
-            "drops": {
-              "abyssal_king": {
-                "1_andar_unreal": 0.002,
-                "2_andar_unreal": 0.003,
-                "3_andar_unreal":0.0045 
-              },
-              "foreign_conquerer": {
-                "1_andar_unreal": 0.002,
-                "2_andar_unreal": 0.003,
-                "3_andar_unreal":0.0045 
-              }
-            }          
-          },
-          "savage": {
-            "name": "Savage",
-            "monsters": ["1_andar_savage", "2_andar_savage", "3_andar_savage"],
-            "drops": {
-              "ameratat": {
-                "1_andar_savage": 0.002,
-                "2_andar_savage": 0.003,
-                "3_andar_savage":0.0045 
-              },
-              "elder_dragon_zilant_card": {
-                "1_andar_savage": 0.002,
-                "2_andar_savage": 0.003,
-                "3_andar_savage":0.0045 
-              }
-            }          
-          },
-          "infernal": {
-            "name": "Infernal",
-            "monsters": ["1_andar_infernal", "2_andar_infernal", "3_andar_infernal"],
-            "drops": {
-              "caixa_das_estacoes": {
-                "1_andar_infernal": 0.002,
-                "2_andar_infernal": 0.003,
-                "3_andar_infernal":0.0045 
-              },
-              "half_blood_princess_meer_card": {
-                "1_andar_infernal": 0.002,
-                "2_andar_infernal": 0.003,
-                "3_andar_infernal":0.0045 
-              }
-            }          
-          },
-          "pesadelo": {
-            "name": "Pesadelo",
-            "monsters": ["1_andar_pesadelo", "2_andar_pesadelo", "3_andar_pesadelo"],
-            "drops": {
-              "ghostfire": {
-                "1_andar_pesadelo": 0.0007,
-                "2_andar_pesadelo": 0.001,
-                "3_andar_pesadelo":0.0015 
-              },
-              "old_king_groza_of_abyss_card": {
-                "1_andar_pesadelo": 0.0007,
-                "2_andar_pesadelo": 0.001,
-                "3_andar_pesadelo":0.0015 
-              },
-              "princess_meer_card": {
-                "1_andar_pesadelo": 0.0007,
-                "2_andar_pesadelo": 0.001,
-                "3_andar_pesadelo":0.0015 
-              }
-            }          
-          },
-          "ultimate": {
-            "name": "Ultimate",
-            "monsters": ["1_andar_ultimate", "2_andar_ultimate", "3_andar_ultimate"],
-            "drops": {
-              "caixa_reform_das_estacoes": {
-                "1_andar_ultimate": 0.0007,
-                "2_andar_ultimate": 0.001,
-                "3_andar_ultimate":0.0015 
-              },
-              "album_de_cartas_jro": {
-                "1_andar_ultimate": 0.0007,
-                "2_andar_ultimate": 0.001,
-                "3_andar_ultimate":0.0015 
-              }              
-            }          
           }
+        },
+        "2": {
+          "name": "Hard",
+          "monsters": ["1_andar_hard", "2_andar_hard", "3_andar_hard"],
+          "drops": {
+            "witch_zilant_card": {
+              "1_andar_hard": 0.002,
+              "2_andar_hard": 0.003,
+              "3_andar_hard":0.0045 
+            },
+            "granada_do_poder": {
+              "1_andar_hard": 0.002,
+              "2_andar_hard": 0.003,
+              "3_andar_hard":0.0045 
+            }
+          }          
+        },
+        "3": {
+          "name": "Extreme",
+          "monsters": ["1_andar_extreme", "2_andar_extreme", "3_andar_extreme"],
+          "drops": {
+            "anel_do_rei_abissal_desperto": {
+              "1_andar_extreme": 0.002,
+              "2_andar_extreme": 0.003,
+              "3_andar_extreme":0.0045 
+            },
+            "old_king_groza_card": {
+              "1_andar_extreme": 0.002,
+              "2_andar_extreme": 0.003,
+              "3_andar_extreme":0.0045 
+            }
+          }
+        },
+        "4": {
+          "name": "Unreal",
+          "monsters": ["1_andar_unreal", "2_andar_unreal", "3_andar_unreal"],
+          "drops": {
+            "abyssal_king": {
+              "1_andar_unreal": 0.002,
+              "2_andar_unreal": 0.003,
+              "3_andar_unreal":0.0045 
+            },
+            "foreign_conquerer": {
+              "1_andar_unreal": 0.002,
+              "2_andar_unreal": 0.003,
+              "3_andar_unreal":0.0045 
+            }
+          }          
+        },
+        "5": {
+          "name": "Savage",
+          "monsters": ["1_andar_savage", "2_andar_savage", "3_andar_savage"],
+          "drops": {
+            "ameratat": {
+              "1_andar_savage": 0.002,
+              "2_andar_savage": 0.003,
+              "3_andar_savage":0.0045 
+            },
+            "elder_dragon_zilant_card": {
+              "1_andar_savage": 0.002,
+              "2_andar_savage": 0.003,
+              "3_andar_savage":0.0045 
+            }
+          }          
+        },
+        "6": {
+          "name": "Infernal",
+          "monsters": ["1_andar_infernal", "2_andar_infernal", "3_andar_infernal"],
+          "drops": {
+            "caixa_das_estacoes": {
+              "1_andar_infernal": 0.002,
+              "2_andar_infernal": 0.003,
+              "3_andar_infernal":0.0045 
+            },
+            "half_blood_princess_meer_card": {
+              "1_andar_infernal": 0.002,
+              "2_andar_infernal": 0.003,
+              "3_andar_infernal":0.0045 
+            }
+          }          
+        },
+        "7": {
+          "name": "Pesadelo",
+          "monsters": ["1_andar_pesadelo", "2_andar_pesadelo", "3_andar_pesadelo"],
+          "drops": {
+            "ghostfire": {
+              "1_andar_pesadelo": 0.0007,
+              "2_andar_pesadelo": 0.001,
+              "3_andar_pesadelo":0.0015 
+            },
+            "old_king_groza_of_abyss_card": {
+              "1_andar_pesadelo": 0.0007,
+              "2_andar_pesadelo": 0.001,
+              "3_andar_pesadelo":0.0015 
+            },
+            "princess_meer_card": {
+              "1_andar_pesadelo": 0.0007,
+              "2_andar_pesadelo": 0.001,
+              "3_andar_pesadelo":0.0015 
+            }
+          }          
+        },
+        "8": {
+          "name": "Ultimate",
+          "monsters": ["1_andar_ultimate", "2_andar_ultimate", "3_andar_ultimate"],
+          "drops": {
+            "caixa_reform_das_estacoes": {
+              "1_andar_ultimate": 0.0007,
+              "2_andar_ultimate": 0.001,
+              "3_andar_ultimate":0.0015 
+            },
+            "album_de_cartas_jro": {
+              "1_andar_ultimate": 0.0007,
+              "2_andar_ultimate": 0.001,
+              "3_andar_ultimate":0.0015 
+            }              
+          }          
         }
       }
     },
@@ -1200,7 +1200,7 @@
 
 
 
-    
+
 
 
 
