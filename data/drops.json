@@ -1,5 +1,53 @@
 {
   "contents": {
+    "moedas": {
+      "name": "Moedas e Selada",
+      "type": "monster_table",
+      "levels": {
+        "1": {
+          "name": "Cheffenia/Bio",
+          "monsters": ["normal", "hard", "extreme", "savage"],
+          "drops": {
+            "0_quests": {
+              "normal": 20,
+              "hard": 20,
+              "extreme": 8,
+              "savage": 2  
+            },
+            "2_quests": {
+              "normal": 30,
+              "hard": 30,
+              "extreme": 20,
+              "savage": 5  
+            },
+            "3_quests": {
+              "normal": 30,
+              "hard": 30,
+              "extreme": 26,
+              "savage": 6.5  
+            }
+          }
+        },
+        "2": {
+          "name": "Selada",
+          "monsters": ["normal", "quartas"],
+          "drops": {
+            "cartas_mvp": {
+              "normal": 0.01,
+              "quartas": 0.015
+            },
+            "album_de_cartas_illusion_selada":{
+              "normal": 0.005,
+              "quartas": 0.0075
+            },
+            "album_de_cartas_selada": {
+              "normal": 0.005,
+              "quartas": 0.0075
+            }
+          }
+        }
+      }
+    },
     "fenda_maior": {
       "name": "Fenda Maior",
       "levels": {
@@ -632,6 +680,36 @@
   },
 
   "items": {
+    "0_quests": {
+      "name": "0 quests diárias",
+      "base_drop_percent": 1.0
+    },
+    "2_quests": {
+      "name": "2 quests diárias",
+      "base_drop_percent": 1.5
+    },
+    "3_quests": {
+      "name": "3 quests diárias",
+      "base_drop_percent": 2.0
+    },
+    "cartas_mvp": {
+      "name": "Cartas MVP direto",
+      "base_drop_percent": 0.01
+    },
+    "album_de_cartas_illusion_selada": {
+      "name": "Álbum de Cartas Ilusion Seladas",
+      "base_drop_percent": 0.005
+    },
+    "album_de_cartas_selada": {
+      "name": "Álbum de Cartas Seladas",
+      "base_drop_percent": 0.005
+    },
+
+
+
+
+    
+
     "florzinha": {
       "name": "Florzinha",
       "base_drop_percent": 2.0
