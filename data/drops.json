@@ -314,6 +314,16 @@
           "name": "Ultimate",
           "monsters": ["1_andar_ultimate", "2_andar_ultimate", "3_andar_ultimate"],
           "drops": {
+            "ghostfire": {
+              "1_andar_ultimate": 0,
+              "2_andar_ultimate": 0.0015,
+              "3_andar_ultimate":0.0015 
+            },
+            "caixa_das_estacoes": {
+              "1_andar_ultimate": 0.0045,
+              "2_andar_ultimate": 0,
+              "3_andar_ultimate":0.0045 
+            },
             "caixa_reform_das_estacoes": {
               "1_andar_ultimate": 0.0007,
               "2_andar_ultimate": 0.001,
@@ -325,9 +335,44 @@
               "3_andar_ultimate":0.0015 
             }              
           }          
+        },
+        "9": {
+          "name": "Ultimate II",
+          "monsters": ["1_andar_ultimateii", "2_andar_ultimateii", "3_andar_ultimateii"],
+          "drops": {
+            "caixa_das_estacoes": {
+              "1_andar_ultimateii": 0.0045,
+              "2_andar_ultimateii": 0,
+              "3_andar_ultimateii":0.0045 
+            },
+            "caixa_reform_das_estacoes": {
+              "1_andar_ultimateii": 0.0007,
+              "2_andar_ultimateii": 0.001,
+              "3_andar_ultimateii":0.0015 
+            },
+            "album_de_cartas_jro": {
+              "1_andar_ultimateii": 0.0007,
+              "2_andar_ultimateii": 0.001,
+              "3_andar_ultimateii":0.0015 
+            },
+            "shadow_purity_shield": {
+              "1_andar_ultimateii": 0.0007,
+              "2_andar_ultimateii": 0.001,
+              "3_andar_ultimateii":0.0015 
+            }  
+          }
+        },
+        "10": {
+          "name": "Abissal",
+          "monsters": ["1_andar_ultimateii", "2_andar_ultimateii", "3_andar_ultimateii"],
+          "drops": {
+                  }
         }
       }
     },
+
+
+
 
     "glast_heim_extreme": {
       "name": "Glast Heim Extreme",
@@ -338,10 +383,10 @@
           "monsters": ["normal", "elite", "mini_boss", "mvp"],
           "drops": {
             "fragmento_sagrado": {
-              "normal": 0.05,
-              "elite": 0.15,
-              "mini_boss": 1.5,              
-              "mvp": 7.5
+              "normal": 0.1,
+              "elite": 0.3,
+              "mini_boss": 3,              
+              "mvp": 15
             },
             "pergaminho_brilhante": {
               "normal": 0.1,
@@ -350,16 +395,16 @@
               "mvp": 15
             },
             "orbe_lapine_sagrado": {
-              "normal": 0.004,
-              "elite": 0.012,
-              "mini_boss": 0.12,              
-              "mvp": 0.6
+              "normal": 0.006,
+              "elite": 0.018,
+              "mini_boss": 0.18,              
+              "mvp": 0.9
             },
             "mini_refinadora_extreme": {
-              "normal": 0.0005,
-              "elite": 0.0015,
-              "mini_boss": 0.015,              
-              "mvp": 0.075
+              "normal": 0.00075,
+              "elite": 0.00225,
+              "mini_boss": 0.0225,              
+              "mvp": 0.1125
             },
             "refinadora_complexa_extreme": {
               "normal": 0,
@@ -368,10 +413,10 @@
               "mvp": 1.5
             },
             "fragmento_da_escuridão": {
-              "normal": 0.00002,
-              "elite": 0.0002,
-              "mini_boss": 0.002,              
-              "mvp": 0.02
+              "normal": 0.00004,
+              "elite": 0.0004,
+              "mini_boss": 0.004,              
+              "mvp": 0.04
             },
             "awakened_hollow_shoes": {
               "normal": 0,
@@ -1272,6 +1317,10 @@
     },
     "album_de_cartas_jro": {
       "name": "Álbum de Cartas JRO",
+      "base_drop_percent": 0.0001
+    },
+    "shadow_purity_shield": { 
+      "name": "Shadow Purity Shield",
       "base_drop_percent": 0.0001
     },
 
