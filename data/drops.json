@@ -48,6 +48,33 @@
         }
       }
     },
+
+
+  
+    "villa_of_zenys": {
+      "name": "Villa of Zenys",
+      "type": "monster_table",
+      "levels": {
+        "1": {
+          "name": "Villa of Zenys",
+          "monsters": ["sem membro", "com membro"],
+          "drops": {
+            "florzinha": {
+              "sem membro": 2.0,
+              "com membro": 2.0
+            },
+            "bolsas": {
+              "sem membro": 12.0,
+              "com membro": 18.0
+            } 
+          }
+        }
+      }
+    },
+
+
+
+
     "fenda_maior": {
       "name": "Fenda Maior",
       "levels": {
@@ -1237,6 +1264,10 @@
 
 
 
+    "bolsas": {
+      "name": "Bolsas",
+      "base_drop_percent": 12.0
+    },
 
 
 
