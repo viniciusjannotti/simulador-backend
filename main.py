@@ -358,6 +358,10 @@ def calculate_monster_table(req: BatchCalculateRequest):
         # Remove o bônus se não for domínio
         if "dominio_reputation" in general_mods:
             del general_mods["dominio_reputation"]
+    
+    # Só aplica se for conteúdo Villa of zenys
+    #if req.content_id == "villa_of_zenys":
+     #   if 
 
 
 
