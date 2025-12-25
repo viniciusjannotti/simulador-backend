@@ -256,6 +256,15 @@ def calculate_all_drops(req: BatchCalculateRequest):
         if "dominio_reputation" in general_mods:
             del general_mods["dominio_reputation"]
 
+    # Só aplica se for conteúdo Villa of zenys
+    if req.content_id == "villa_of_zenys":
+
+        # Mantém o bônus que veio do frontend
+        pass
+    else:
+        # Remove o bônus se não for villa_of_zenys
+        if "member_bonus" in general_mods:
+           del general_mods["member_bonus"]
     
 
     

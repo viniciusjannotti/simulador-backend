@@ -8,6 +8,13 @@
           "name": "Cheffenia/Bio",
           "monsters": ["normal", "hard", "extreme", "savage"],
           "drops": {
+            "florzinha":
+            {
+              "normal": 2,
+              "hard": 2,
+              "extreme": 2,
+              "savage": 2  
+            },
             "0_quests": {
               "normal": 20,
               "hard": 20,
