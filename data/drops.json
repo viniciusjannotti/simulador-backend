@@ -53,21 +53,10 @@
   
     "villa_of_zenys": {
       "name": "Villa of Zenys",
-      "type": "monster_table",
       "levels": {
         "1": {
-          "name": "Villa of Zenys (manutenção)",
-          "monsters": ["sem membro", "com membro"],
-          "drops": {
-            "florzinha": {
-              "sem membro": 0.0,
-              "com membro": 0.0
-            },
-            "bolsas": {
-              "sem membro": 0.0,
-              "com membro": 0.0
-            } 
-          }
+         "name": "Villa of Zenys",
+         "drops": ["bolsas"]
         }
       }
     },

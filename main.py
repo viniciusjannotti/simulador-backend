@@ -255,6 +255,10 @@ def calculate_all_drops(req: BatchCalculateRequest):
         # Remove o bônus se não for domínio
         if "dominio_reputation" in general_mods:
             del general_mods["dominio_reputation"]
+
+    
+
+    
             
     
     # Calcula para cada item
@@ -360,12 +364,15 @@ def calculate_monster_table(req: BatchCalculateRequest):
             del general_mods["dominio_reputation"]
     
     # Só aplica se for conteúdo Villa of zenys
-    #if req.content_id == "villa_of_zenys":
-     #   if 
+    if req.content_id == "villa_of_zenys":
 
+        # Mantém o bônus que veio do frontend
+        pass
+    else:
+        # Remove o bônus se não for villa_of_zenys
+        if "member_bonus" in general_mods:
+           del general_mods["member_bonus"]
 
-
-    
 
     B_general = sum(general_mods.values())
     B_final = sum(final_mods.values())
