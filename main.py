@@ -73,15 +73,6 @@ class BatchCalculateRequest(BaseModel):
     consumables: List[str]
 
 
-class BatchCalculateRequest(BaseModel):
-    content_id: str
-    level_id: str
-    general_mods: Dict[str, float]
-    final_mods: Dict[str, float]
-    consumables: List[str]
-    florzinha_mode: str = "auto"  # "auto" ou "manual"
-    florzinha_value: float = 0.0  # valor da florzinha se manual
-
 # ============================================================
 # NOVOS ENDPOINTS — Seleção de Conteúdo, Nível e Drops
 # ============================================================
