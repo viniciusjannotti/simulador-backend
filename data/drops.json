@@ -512,9 +512,9 @@
           "monsters": ["normal", "ranged", "horda", "fate", "mvp_mapa", "mvp_instancia"],
           "drops": {
             "ticket_sombrio_avaçado": {
-              "normal": 0.01,
-              "ranged": 0.01,
-              "horda": 0.3,
+              "normal": 0.04,
+              "ranged": 0.04,
+              "horda": 0.1,
               "fate": 20.0,
               "mvp_mapa": 20.0,
               "mvp_instancia": 30.0
