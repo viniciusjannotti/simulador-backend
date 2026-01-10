@@ -369,14 +369,14 @@
               "3_andar_ultimateii":0.0045 
             },
             "caixa_reform_das_estacoes": {
-              "1_andar_ultimateii": 0.0007,
-              "2_andar_ultimateii": 0.001,
-              "3_andar_ultimateii":0.0015 
+              "1_andar_ultimateii": 0.0008,
+              "2_andar_ultimateii": 0.0012,
+              "3_andar_ultimateii":0.0018 
             },
             "album_de_cartas_jro": {
-              "1_andar_ultimateii": 0.0007,
-              "2_andar_ultimateii": 0.001,
-              "3_andar_ultimateii":0.0015 
+              "1_andar_ultimateii": 0.0008,
+              "2_andar_ultimateii": 0.0012,
+              "3_andar_ultimateii":0.0018 
             },
             "shadow_purity_shield": {
               "1_andar_ultimateii": 0.0007,
@@ -406,10 +406,10 @@
           "monsters": ["normal", "elite", "mini_boss", "mvp"],
           "drops": {
             "fragmento_sagrado": {
-              "normal": 0.1,
-              "elite": 0.3,
-              "mini_boss": 3,              
-              "mvp": 15
+              "normal": 0.2,
+              "elite": 0.6,
+              "mini_boss": 6,              
+              "mvp": 30
             },
             "pergaminho_brilhante": {
               "normal": 0.1,
@@ -424,10 +424,10 @@
               "mvp": 0.9
             },
             "mini_refinadora_extreme": {
-              "normal": 0.00075,
-              "elite": 0.00225,
-              "mini_boss": 0.0225,              
-              "mvp": 0.1125
+              "normal": 0.0015,
+              "elite": 0.045,
+              "mini_boss": 0.45,              
+              "mvp": 6
             },
             "refinadora_complexa_extreme": {
               "normal": 0,
@@ -443,15 +443,15 @@
             },
             "awakened_hollow_shoes": {
               "normal": 0,
-              "elite": 0.0001,
-              "mini_boss": 0.001,              
-              "mvp": 0.01
+              "elite": 0.0003,
+              "mini_boss": 0.003,              
+              "mvp": 0.03
             },
             "escudo_divino": {
               "normal": 0,
-              "elite": 0.0001,
-              "mini_boss": 0.001,              
-              "mvp": 0.02
+              "elite": 0.0003,
+              "mini_boss": 0.003,              
+              "mvp": 0.06
             }
           }
         }
@@ -514,7 +514,7 @@
             "ticket_sombrio_avaçado": {
               "normal": 0.04,
               "ranged": 0.04,
-              "horda": 0.1,
+              "horda": 0.2,
               "fate": 20.0,
               "mvp_mapa": 20.0,
               "mvp_instancia": 30.0
