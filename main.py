@@ -52,6 +52,8 @@ GENERAL_CONS = {
 # Consumíveis de BÔNUS FINAL (multiplicativo)
 FINAL_CONS = {
     "black": 6.0,
+    "agilidade": 2.0,
+    "skul": 1.0,
     "ativador": 5.0,
     "carnavalesco": 2.0,
     "champs": 6.0,
