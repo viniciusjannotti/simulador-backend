@@ -665,6 +665,12 @@
           "name": "Domínio Ultimate 1",
           "monsters": ["normal", "ranged", "fate", "mvp_mapa"],
           "drops": {
+            "florzinha": {
+              "normal": 2,
+              "ranged": 2,              
+              "fate": 2,
+              "mvp_mapa": 2
+            },
             "runa_corrompida": {
               "normal": 0.1,
               "ranged": 0.1,              
@@ -677,6 +683,11 @@
           "name": "Domínio Ultimate 2",
           "monsters": ["horda", "fate", "mvp_instancia"],
           "drops": {
+            "florzinha": {
+              "horda": 2,              
+              "fate": 2,
+              "mvp_instancia": 2
+            },
             "runa_corrompida_superior": {
               "horda": 0.1,              
               "fate": 1,
