@@ -670,30 +670,6 @@
               "ranged": 0.1,              
               "fate": 1,
               "mvp_mapa": 10
-            },
-            "minerio_ultimate": {
-              "normal": 0.01,
-              "ranged": 0.01,              
-              "fate": 0.05,
-              "mvp_mapa": 0.1
-            },
-            "cristal_shadow_arma": {
-              "normal": 0.0001,
-              "ranged": 0.0001,              
-              "fate": 0.001,
-              "mvp_mapa": 0.01
-            },
-            "murderous_grudge": {
-              "normal": 0,
-              "ranged": 0,              
-              "fate": 0.001,
-              "mvp_mapa": 0.01
-            },
-            "amuleto_da_criacao": {
-              "normal": 0,
-              "ranged": 0,              
-              "fate": 0,
-              "mvp_mapa": 0.01
             }
           }
         },
@@ -701,45 +677,10 @@
           "name": "Domínio Ultimate 2",
           "monsters": ["horda", "fate", "mvp_instancia"],
           "drops": {
-            "runa_corrompida": {
-              "horda": 0.3,              
-              "fate": 3,
-              "mvp_instancia": 30
-            },
             "runa_corrompida_superior": {
               "horda": 0.1,              
               "fate": 1,
               "mvp_instancia": 10
-            },
-            "cristal_shadow_arma2": {
-              "horda": 0.0002,              
-              "fate": 0.0003,
-              "mvp_instancia": 0.03
-            },
-            "album_de_cartas_dultimate2": {
-              "horda": 0.0001,              
-              "fate": 0.001,
-              "mvp_instancia": 0.01
-            },
-            "rancor_assassino": {
-              "horda": 0.0001,              
-              "fate": 0.0003,
-              "mvp_instancia": 0.03
-            },
-            "amuleto_da_criacao2": {
-              "horda": 0.0001,              
-              "fate": 0.0003,
-              "mvp_instancia": 0.03
-            },
-            "loyal_servant": {
-              "horda": 0.0001,              
-              "fate": 0.001,
-              "mvp_instancia": 0.01
-            },
-            "starry_sky_twin_prime": {
-              "horda": 0,              
-              "fate": 0.0001,
-              "mvp_instancia": 0.01
             }
           }
         }                  
