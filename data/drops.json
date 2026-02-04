@@ -465,6 +465,11 @@
           "name": "Domínio Normal",
           "monsters": ["normal", "ranged", "horda", "fate", "mvp_mapa", "mvp_instancia"],
           "drops": {
+            "florzinha": {
+              "horda": 2,              
+              "fate": 2,
+              "mvp_instancia": 2
+            },
             "ticket_sombrio": {
               "normal": 0.04,
               "ranged": 0.04,
@@ -511,6 +516,11 @@
           "name": "Domínio Hard",
           "monsters": ["normal", "ranged", "horda", "fate", "mvp_mapa", "mvp_instancia"],
           "drops": {
+            "florzinha": {
+              "horda": 2,              
+              "fate": 2,
+              "mvp_instancia": 2
+            },
             "ticket_sombrio_avaçado": {
               "normal": 0.04,
               "ranged": 0.04,
@@ -573,6 +583,11 @@
           "name": "Domínio Unreal",
           "monsters": ["normal", "ranged", "horda", "fate", "mvp_mapa", "mvp_instancia"],
           "drops": {
+            "florzinha": {
+              "horda": 2,              
+              "fate": 2,
+              "mvp_instancia": 2
+            },
             "floco_glacial": {
               "normal": 0.1,
               "ranged": 0.1,
@@ -619,6 +634,11 @@
           "name": "Domínio Pesadelo",
           "monsters": ["normal", "ranged", "horda", "fate", "mvp_mapa", "mvp_instancia"],
           "drops": {
+            "florzinha": {
+              "horda": 2,              
+              "fate": 2,
+              "mvp_instancia": 2
+            },
             "nucleo_pesadelo": {
               "normal": 0.1,
               "ranged": 0.15,
