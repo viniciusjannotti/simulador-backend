@@ -6,44 +6,51 @@
       "levels": {
         "1": {
           "name": "Cheffenia/Bio",
-          "monsters": ["normal", "hard", "extreme", "savage"],
+          "monsters": [
+            "normal",
+            "hard",
+            "extreme",
+            "savage"
+          ],
           "drops": {
-            "florzinha":
-            {
+            "florzinha": {
               "normal": 2,
               "hard": 2,
               "extreme": 2,
-              "savage": 2  
+              "savage": 2
             },
             "0_quests": {
               "normal": 20,
               "hard": 20,
               "extreme": 8,
-              "savage": 2  
+              "savage": 2
             },
             "2_quests": {
               "normal": 30,
               "hard": 30,
               "extreme": 20,
-              "savage": 5  
+              "savage": 5
             },
             "3_quests": {
               "normal": 30,
               "hard": 30,
               "extreme": 26,
-              "savage": 6.5  
+              "savage": 6.5
             }
           }
         },
         "2": {
           "name": "Selada",
-          "monsters": ["normal", "quartas"],
+          "monsters": [
+            "normal",
+            "quartas"
+          ],
           "drops": {
             "cartas_mvp": {
               "normal": 0.01,
               "quartas": 0.015
             },
-            "album_de_cartas_illusion_selada":{
+            "album_de_cartas_illusion_selada": {
               "normal": 0.005,
               "quartas": 0.0075
             },
@@ -55,96 +62,184 @@
         }
       }
     },
-
-
-  
     "villa_of_zenys": {
       "name": "Villa of Zenys",
       "levels": {
         "1": {
-         "name": "Villa of Zenys",
-         "drops": ["bolsas"]
+          "name": "Villa of Zenys",
+          "drops": [
+            "bolsas"
+          ]
         }
       }
     },
-
-
-
-
     "fenda_maior": {
       "name": "Fenda Maior",
       "levels": {
         "1": {
           "name": "1º Andar (Normal)",
-          "drops": ["florzinha", "mini_refinadora_1_normal", "manto_elementos_1_normal"]
+          "drops": [
+            "florzinha",
+            "mini_refinadora_1_normal",
+            "manto_elementos_1_normal"
+          ]
         },
         "2": {
           "name": "2º Andar (Normal)",
-          "drops": ["florzinha", "mini_refinadora_2_normal", "manto_elementos_2_normal"]
+          "drops": [
+            "florzinha",
+            "mini_refinadora_2_normal",
+            "manto_elementos_2_normal"
+          ]
         },
         "3": {
           "name": "3º Andar (Normal)",
-          "drops": ["florzinha", "mini_refinadora_3_normal", "manto_elementos_3_normal"]
+          "drops": [
+            "florzinha",
+            "mini_refinadora_3_normal",
+            "manto_elementos_3_normal"
+          ]
         },
         "4": {
           "name": "4º Andar (Intermediate)",
-          "drops": ["florzinha", "mini_refinadora_4_intermediate"]
+          "drops": [
+            "florzinha",
+            "mini_refinadora_4_intermediate"
+          ]
         },
         "5": {
           "name": "5º Andar (Intermediate)",
-          "drops": ["florzinha", "mini_refinadora_5_intermediate"]
+          "drops": [
+            "florzinha",
+            "mini_refinadora_5_intermediate"
+          ]
         },
         "6": {
           "name": "6º Andar (Intermediate)",
-          "drops": ["florzinha", "mini_refinadora_6_intermediate"]
+          "drops": [
+            "florzinha",
+            "mini_refinadora_6_intermediate"
+          ]
         },
         "7": {
           "name": "7º Andar (Hard)",
-          "drops": ["florzinha", "mini_refinadora_7_hard", "manto_luz_sol_7_hard"]
+          "drops": [
+            "florzinha",
+            "mini_refinadora_7_hard",
+            "manto_luz_sol_7_hard"
+          ]
         },
         "8": {
           "name": "8º Andar (Hard)",
-          "drops": ["florzinha", "mini_refinadora_8_hard", "manto_luz_sol_8_hard"]
+          "drops": [
+            "florzinha",
+            "mini_refinadora_8_hard",
+            "manto_luz_sol_8_hard"
+          ]
         },
         "9": {
           "name": "9º Andar (Hard)",
-          "drops": ["florzinha", "mini_refinadora_9_hard", "manto_luz_sol_9_hard"]
+          "drops": [
+            "florzinha",
+            "mini_refinadora_9_hard",
+            "manto_luz_sol_9_hard"
+          ]
         },
         "10": {
           "name": "10º Andar (Extreme)",
-          "drops": ["florzinha", "refinadora_complexa_10_extreme", "kings_eager_10_extreme"]
+          "drops": [
+            "florzinha",
+            "refinadora_complexa_10_extreme",
+            "kings_eager_10_extreme"
+          ]
         },
         "11": {
           "name": "11º Andar (Extreme)",
-          "drops": ["florzinha", "refinadora_complexa_11_extreme", "kings_eager_11_extreme"]
+          "drops": [
+            "florzinha",
+            "refinadora_complexa_11_extreme",
+            "kings_eager_11_extreme"
+          ]
         },
         "12": {
           "name": "12º Andar (Extreme)",
-          "drops": ["florzinha", "refinadora_complexa_12_extreme", "kings_eager_12_extreme"]
+          "drops": [
+            "florzinha",
+            "refinadora_complexa_12_extreme",
+            "kings_eager_12_extreme"
+          ]
         },
         "13": {
           "name": "13º Andar (Unreal)",
-          "drops": ["florzinha", "refinadora_complexa_13_unreal", "album_magico_13_unreal", "varmundt_reform_13_unreal"]
+          "drops": [
+            "florzinha",
+            "refinadora_complexa_13_unreal",
+            "album_magico_13_unreal",
+            "varmundt_reform_13_unreal"
+          ]
         },
         "14": {
           "name": "14º Andar (Unreal)",
-          "drops": ["florzinha", "refinadora_complexa_14_unreal", "album_magico_14_unreal", "varmundt_reform_14_unreal"]
+          "drops": [
+            "florzinha",
+            "refinadora_complexa_14_unreal",
+            "album_magico_14_unreal",
+            "varmundt_reform_14_unreal"
+          ]
         },
         "15": {
           "name": "15º Andar (Unreal)",
-          "drops": ["florzinha", "refinadora_complexa_15_unreal", "album_magico_15_unreal", "varmundt_reform_15_unreal"]
+          "drops": [
+            "florzinha",
+            "refinadora_complexa_15_unreal",
+            "album_magico_15_unreal",
+            "varmundt_reform_15_unreal"
+          ]
         },
         "16": {
           "name": "16º Andar (Savage)",
-          "drops": ["florzinha", "refinadora_complexa_16_savage", "album_magico_16_savage", "casaco_comemorativo_16_savage", "cesta_das_maravilhas_16", "memento_mori_16", "heros_triumph_16", "hero_16", "release_of_magic_16", "epifania_16"]
+          "drops": [
+            "florzinha",
+            "refinadora_complexa_16_savage",
+            "album_magico_16_savage",
+            "casaco_comemorativo_16_savage",
+            "cesta_das_maravilhas_16",
+            "memento_mori_16",
+            "heros_triumph_16",
+            "hero_16",
+            "release_of_magic_16",
+            "epifania_16"
+          ]
         },
         "17": {
           "name": "17º Andar (Savage)",
-          "drops": ["florzinha", "refinadora_complexa_17_savage", "album_magico_17_savage", "casaco_comemorativo_17_savage", "cesta_das_maravilhas_17", "memento_mori_17", "heros_triumph_17", "hero_17", "release_of_magic_17", "epifania_17"]
+          "drops": [
+            "florzinha",
+            "refinadora_complexa_17_savage",
+            "album_magico_17_savage",
+            "casaco_comemorativo_17_savage",
+            "cesta_das_maravilhas_17",
+            "memento_mori_17",
+            "heros_triumph_17",
+            "hero_17",
+            "release_of_magic_17",
+            "epifania_17"
+          ]
         },
         "18": {
           "name": "18º Andar (Savage)",
-          "drops": ["florzinha", "refinadora_complexa_18_savage", "album_magico_18_savage", "casaco_comemorativo_18_savage", "cesta_das_maravilhas_18", "memento_mori_18", "heros_triumph_18", "hero_18", "release_of_magic_18", "epifania_18"]
+          "drops": [
+            "florzinha",
+            "refinadora_complexa_18_savage",
+            "album_magico_18_savage",
+            "casaco_comemorativo_18_savage",
+            "cesta_das_maravilhas_18",
+            "memento_mori_18",
+            "heros_triumph_18",
+            "hero_18",
+            "release_of_magic_18",
+            "epifania_18"
+          ]
         }
       }
     },
@@ -153,304 +248,416 @@
       "levels": {
         "1": {
           "name": "1º Andar (Infernal)",
-          "drops": ["refinadora_complexa_infernal1", "martelo_sombrio_91", "twinhead_dragon_boots1", "twinhead_dragon_scale1"]
+          "drops": [
+            "refinadora_complexa_infernal1",
+            "martelo_sombrio_91",
+            "twinhead_dragon_boots1",
+            "twinhead_dragon_scale1"
+          ]
         },
         "2": {
           "name": "2º Andar (Infernal)",
-          "drops": ["refinadora_complexa_infernal2", "martelo_sombrio_92", "twinhead_dragon_boots2", "twinhead_dragon_scale2"]
+          "drops": [
+            "refinadora_complexa_infernal2",
+            "martelo_sombrio_92",
+            "twinhead_dragon_boots2",
+            "twinhead_dragon_scale2"
+          ]
         },
         "3": {
           "name": "3º Andar (Infernal)",
-          "drops": ["refinadora_complexa_infernal3", "martelo_sombrio_93", "twinhead_dragon_boots3", "twinhead_dragon_scale3"]
+          "drops": [
+            "refinadora_complexa_infernal3",
+            "martelo_sombrio_93",
+            "twinhead_dragon_boots3",
+            "twinhead_dragon_scale3"
+          ]
         },
         "4": {
           "name": "4º Andar (Pesadelo)",
-          "drops": ["refinadora_complexa_pesadelo1", "martelo_sombrio_94", "martelo_sombrio_104", "gloria_real4", "starry_sky_twin_prime4", "unniversallis4"]
+          "drops": [
+            "refinadora_complexa_pesadelo1",
+            "martelo_sombrio_94",
+            "martelo_sombrio_104",
+            "gloria_real4",
+            "starry_sky_twin_prime4",
+            "unniversallis4"
+          ]
         },
         "5": {
           "name": "5º Andar (Pesadelo)",
-          "drops": ["refinadora_complexa_pesadelo2", "martelo_sombrio_95", "martelo_sombrio_105", "gloria_real5", "starry_sky_twin_prime5", "unniversallis5"]
+          "drops": [
+            "refinadora_complexa_pesadelo2",
+            "martelo_sombrio_95",
+            "martelo_sombrio_105",
+            "gloria_real5",
+            "starry_sky_twin_prime5",
+            "unniversallis5"
+          ]
         },
         "6": {
           "name": "6º Andar (Pesadelo)",
-          "drops": ["refinadora_complexa_pesadelo3", "martelo_sombrio_96", "martelo_sombrio_106", "gloria_real6", "starry_sky_twin_prime6", "unniversallis6"]
+          "drops": [
+            "refinadora_complexa_pesadelo3",
+            "martelo_sombrio_96",
+            "martelo_sombrio_106",
+            "gloria_real6",
+            "starry_sky_twin_prime6",
+            "unniversallis6"
+          ]
         },
         "7": {
           "name": "7º Andar (Ultimate)",
-          "drops": ["refinadora_complexa_ultimate7", "martelo_sombrio_97", "martelo_sombrio_107", "artefato_verusfenda7", "colar_de_yggdrasil7", "overdrive_rampage7"]
+          "drops": [
+            "refinadora_complexa_ultimate7",
+            "martelo_sombrio_97",
+            "martelo_sombrio_107",
+            "artefato_verusfenda7",
+            "colar_de_yggdrasil7",
+            "overdrive_rampage7"
+          ]
         },
         "8": {
           "name": "8º Andar (Ultimate)",
-          "drops": ["refinadora_complexa_ultimate8", "martelo_sombrio_98", "martelo_sombrio_108", "artefato_verusfenda8", "colar_de_yggdrasil8", "overdrive_rampage8", "bota_de_diamante_da_dualidade8","tempora_ringlt8"]
+          "drops": [
+            "refinadora_complexa_ultimate8",
+            "martelo_sombrio_98",
+            "martelo_sombrio_108",
+            "artefato_verusfenda8",
+            "colar_de_yggdrasil8",
+            "overdrive_rampage8",
+            "bota_de_diamante_da_dualidade8",
+            "tempora_ringlt8"
+          ]
         },
         "9": {
           "name": "9º Andar (Ultimate)",
-          "drops": ["refinadora_complexa_ultimate9", "martelo_sombrio_99", "martelo_sombrio_109", "artefato_verusfenda9", "colar_de_yggdrasil9", "overdrive_rampage9", "bota_de_diamante_da_dualidade9","tempora_ringlt9"]
+          "drops": [
+            "refinadora_complexa_ultimate9",
+            "martelo_sombrio_99",
+            "martelo_sombrio_109",
+            "artefato_verusfenda9",
+            "colar_de_yggdrasil9",
+            "overdrive_rampage9",
+            "bota_de_diamante_da_dualidade9",
+            "tempora_ringlt9"
+          ]
         },
         "10": {
           "name": "10º Andar (Abissal)",
-          "drops": ["fighter10", "thewall10", "magicshield10"]
+          "drops": [
+            "fighter10",
+            "thewall10",
+            "magicshield10"
+          ]
         },
         "11": {
           "name": "11º Andar (Abissal)",
-          "drops": ["fighter11", "thewall11", "magicshield11"]
+          "drops": [
+            "fighter11",
+            "thewall11",
+            "magicshield11"
+          ]
         },
         "12": {
           "name": "12º Andar (Abissal)",
-          "drops": ["fighter12", "thewall12", "magicshield12"]
+          "drops": [
+            "fighter12",
+            "thewall12",
+            "magicshield12"
+          ]
         }
       }
     },
-    
     "trial": {
       "name": "Trial",
       "type": "monster_table",
       "levels": {
         "1": {
           "name": "Normal",
-          "monsters": ["1_andar", "2_andar", "3_andar"],
+          "monsters": [
+            "1_andar",
+            "2_andar",
+            "3_andar"
+          ],
           "drops": {
             "ruler_of_the_end": {
               "1_andar": 0.002,
               "2_andar": 0.003,
-              "3_andar":0.0045  
+              "3_andar": 0.0045
             },
             "poder_oculto_sa1": {
               "1_andar": 0.002,
               "2_andar": 0.003,
-              "3_andar":0.0045 
+              "3_andar": 0.0045
             },
             "poder_oculto_sc3": {
               "1_andar": 0.002,
               "2_andar": 0.003,
-              "3_andar":0.0045 
+              "3_andar": 0.0045
             },
             "poder_oculto_nw1": {
               "1_andar": 0.002,
               "2_andar": 0.003,
-              "3_andar":0.0045 
+              "3_andar": 0.0045
             }
           }
         },
         "2": {
           "name": "Hard",
-          "monsters": ["1_andar_hard", "2_andar_hard", "3_andar_hard"],
+          "monsters": [
+            "1_andar_hard",
+            "2_andar_hard",
+            "3_andar_hard"
+          ],
           "drops": {
             "witch_zilant_card": {
               "1_andar_hard": 0.002,
               "2_andar_hard": 0.003,
-              "3_andar_hard":0.0045 
+              "3_andar_hard": 0.0045
             },
             "granada_do_poder": {
               "1_andar_hard": 0.002,
               "2_andar_hard": 0.003,
-              "3_andar_hard":0.0045 
+              "3_andar_hard": 0.0045
             }
-          }          
+          }
         },
         "3": {
           "name": "Extreme",
-          "monsters": ["1_andar_extreme", "2_andar_extreme", "3_andar_extreme"],
+          "monsters": [
+            "1_andar_extreme",
+            "2_andar_extreme",
+            "3_andar_extreme"
+          ],
           "drops": {
             "anel_do_rei_abissal_desperto": {
               "1_andar_extreme": 0.002,
               "2_andar_extreme": 0.003,
-              "3_andar_extreme":0.0045 
+              "3_andar_extreme": 0.0045
             },
             "old_king_groza_card": {
               "1_andar_extreme": 0.002,
               "2_andar_extreme": 0.003,
-              "3_andar_extreme":0.0045 
+              "3_andar_extreme": 0.0045
             }
           }
         },
         "4": {
           "name": "Unreal",
-          "monsters": ["1_andar_unreal", "2_andar_unreal", "3_andar_unreal"],
+          "monsters": [
+            "1_andar_unreal",
+            "2_andar_unreal",
+            "3_andar_unreal"
+          ],
           "drops": {
             "abyssal_king": {
               "1_andar_unreal": 0.002,
               "2_andar_unreal": 0.003,
-              "3_andar_unreal":0.0045 
+              "3_andar_unreal": 0.0045
             },
             "foreign_conquerer": {
               "1_andar_unreal": 0.002,
               "2_andar_unreal": 0.003,
-              "3_andar_unreal":0.0045 
+              "3_andar_unreal": 0.0045
             }
-          }          
+          }
         },
         "5": {
           "name": "Savage",
-          "monsters": ["1_andar_savage", "2_andar_savage", "3_andar_savage"],
+          "monsters": [
+            "1_andar_savage",
+            "2_andar_savage",
+            "3_andar_savage"
+          ],
           "drops": {
             "ameratat": {
               "1_andar_savage": 0.002,
               "2_andar_savage": 0.003,
-              "3_andar_savage":0.0045 
+              "3_andar_savage": 0.0045
             },
             "elder_dragon_zilant_card": {
               "1_andar_savage": 0.002,
               "2_andar_savage": 0.003,
-              "3_andar_savage":0.0045 
+              "3_andar_savage": 0.0045
             }
-          }          
+          }
         },
         "6": {
           "name": "Infernal",
-          "monsters": ["1_andar_infernal", "2_andar_infernal", "3_andar_infernal"],
+          "monsters": [
+            "1_andar_infernal",
+            "2_andar_infernal",
+            "3_andar_infernal"
+          ],
           "drops": {
             "caixa_das_estacoes": {
               "1_andar_infernal": 0.002,
               "2_andar_infernal": 0.003,
-              "3_andar_infernal":0.0045 
+              "3_andar_infernal": 0.0045
             },
             "half_blood_princess_meer_card": {
               "1_andar_infernal": 0.002,
               "2_andar_infernal": 0.003,
-              "3_andar_infernal":0.0045 
+              "3_andar_infernal": 0.0045
             }
-          }          
+          }
         },
         "7": {
           "name": "Pesadelo",
-          "monsters": ["1_andar_pesadelo", "2_andar_pesadelo", "3_andar_pesadelo"],
+          "monsters": [
+            "1_andar_pesadelo",
+            "2_andar_pesadelo",
+            "3_andar_pesadelo"
+          ],
           "drops": {
             "ghostfire": {
               "1_andar_pesadelo": 0.0007,
               "2_andar_pesadelo": 0.001,
-              "3_andar_pesadelo":0.0015 
+              "3_andar_pesadelo": 0.0015
             },
             "old_king_groza_of_abyss_card": {
               "1_andar_pesadelo": 0.0007,
               "2_andar_pesadelo": 0.001,
-              "3_andar_pesadelo":0.0015 
+              "3_andar_pesadelo": 0.0015
             },
             "princess_meer_card": {
               "1_andar_pesadelo": 0.0007,
               "2_andar_pesadelo": 0.001,
-              "3_andar_pesadelo":0.0015 
+              "3_andar_pesadelo": 0.0015
             }
-          }          
+          }
         },
         "8": {
           "name": "Ultimate",
-          "monsters": ["1_andar_ultimate", "2_andar_ultimate", "3_andar_ultimate"],
+          "monsters": [
+            "1_andar_ultimate",
+            "2_andar_ultimate",
+            "3_andar_ultimate"
+          ],
           "drops": {
             "ghostfire": {
               "1_andar_ultimate": 0,
               "2_andar_ultimate": 0.0015,
-              "3_andar_ultimate":0.0015 
+              "3_andar_ultimate": 0.0015
             },
             "caixa_das_estacoes": {
               "1_andar_ultimate": 0.0045,
               "2_andar_ultimate": 0,
-              "3_andar_ultimate":0.0045 
+              "3_andar_ultimate": 0.0045
             },
             "caixa_reform_das_estacoes": {
               "1_andar_ultimate": 0.0007,
               "2_andar_ultimate": 0.001,
-              "3_andar_ultimate":0.0015 
+              "3_andar_ultimate": 0.0015
             },
             "album_de_cartas_jro": {
               "1_andar_ultimate": 0.0007,
               "2_andar_ultimate": 0.001,
-              "3_andar_ultimate":0.0015 
-            }              
-          }          
+              "3_andar_ultimate": 0.0015
+            }
+          }
         },
         "9": {
           "name": "Ultimate II",
-          "monsters": ["1_andar_ultimateii", "2_andar_ultimateii", "3_andar_ultimateii"],
+          "monsters": [
+            "1_andar_ultimateii",
+            "2_andar_ultimateii",
+            "3_andar_ultimateii"
+          ],
           "drops": {
             "caixa_das_estacoes": {
               "1_andar_ultimateii": 0.0045,
               "2_andar_ultimateii": 0,
-              "3_andar_ultimateii":0.0045 
+              "3_andar_ultimateii": 0.0045
             },
             "caixa_reform_das_estacoes": {
               "1_andar_ultimateii": 0.0008,
               "2_andar_ultimateii": 0.0012,
-              "3_andar_ultimateii":0.0018 
+              "3_andar_ultimateii": 0.0018
             },
             "album_de_cartas_jro": {
               "1_andar_ultimateii": 0.0008,
               "2_andar_ultimateii": 0.0012,
-              "3_andar_ultimateii":0.0018 
+              "3_andar_ultimateii": 0.0018
             },
             "shadow_purity_shield": {
               "1_andar_ultimateii": 0.0007,
               "2_andar_ultimateii": 0.001,
-              "3_andar_ultimateii":0.0015 
-            }  
+              "3_andar_ultimateii": 0.0015
+            }
           }
         },
         "10": {
           "name": "Abissal",
-          "monsters": ["1_andar_ultimateii", "2_andar_ultimateii", "3_andar_ultimateii"],
-          "drops": {
-                  }
+          "monsters": [
+            "1_andar_ultimateii",
+            "2_andar_ultimateii",
+            "3_andar_ultimateii"
+          ],
+          "drops": {}
         }
       }
     },
-
-
-
-
     "glast_heim_extreme": {
       "name": "Glast Heim Extreme",
       "type": "monster_table",
       "levels": {
         "1": {
           "name": "Glast Heim Extreme",
-          "monsters": ["normal", "elite", "mini_boss", "mvp"],
+          "monsters": [
+            "normal",
+            "elite",
+            "mini_boss",
+            "mvp"
+          ],
           "drops": {
             "fragmento_sagrado": {
-              "normal": 0.2,
-              "elite": 0.6,
-              "mini_boss": 6,              
-              "mvp": 30
+              "normal": 0.1,
+              "elite": 0.3,
+              "mini_boss": 3,
+              "mvp": 15
             },
             "pergaminho_brilhante": {
               "normal": 0.1,
               "elite": 0.3,
-              "mini_boss": 3,              
+              "mini_boss": 3,
               "mvp": 15
             },
             "orbe_lapine_sagrado": {
-              "normal": 0.006,
-              "elite": 0.018,
-              "mini_boss": 0.18,              
-              "mvp": 0.9
+              "normal": 0.004,
+              "elite": 0.012,
+              "mini_boss": 0.12,
+              "mvp": 0.6
             },
             "mini_refinadora_extreme": {
-              "normal": 0.0015,
-              "elite": 0.045,
-              "mini_boss": 0.45,              
-              "mvp": 6
+              "normal": 0.001,
+              "elite": 0.015,
+              "mini_boss": 0.15,
+              "mvp": 3
             },
             "refinadora_complexa_extreme": {
               "normal": 0,
-              "elite": 0.015,
-              "mini_boss": 0.15,              
-              "mvp": 1.5
+              "elite": 0.03,
+              "mini_boss": 0.3,
+              "mvp": 3
             },
             "fragmento_da_escuridão": {
-              "normal": 0.00004,
-              "elite": 0.0004,
-              "mini_boss": 0.004,              
-              "mvp": 0.04
+              "normal": 0.00002,
+              "elite": 0.0002,
+              "mini_boss": 0.002,
+              "mvp": 0.02
             },
             "awakened_hollow_shoes": {
               "normal": 0,
               "elite": 0.0003,
-              "mini_boss": 0.003,              
+              "mini_boss": 0.003,
               "mvp": 0.03
             },
             "escudo_divino": {
               "normal": 0,
               "elite": 0.0003,
-              "mini_boss": 0.003,              
+              "mini_boss": 0.003,
               "mvp": 0.06
             }
           }
@@ -463,10 +670,17 @@
       "levels": {
         "1": {
           "name": "Domínio Normal",
-          "monsters": ["normal", "ranged", "horda", "fate", "mvp_mapa", "mvp_instancia"],
+          "monsters": [
+            "normal",
+            "ranged",
+            "horda",
+            "fate",
+            "mvp_mapa",
+            "mvp_instancia"
+          ],
           "drops": {
             "florzinha": {
-              "horda": 2,              
+              "horda": 2,
               "fate": 2,
               "mvp_instancia": 2
             },
@@ -514,10 +728,17 @@
         },
         "2": {
           "name": "Domínio Hard",
-          "monsters": ["normal", "ranged", "horda", "fate", "mvp_mapa", "mvp_instancia"],
+          "monsters": [
+            "normal",
+            "ranged",
+            "horda",
+            "fate",
+            "mvp_mapa",
+            "mvp_instancia"
+          ],
           "drops": {
             "florzinha": {
-              "horda": 2,              
+              "horda": 2,
               "fate": 2,
               "mvp_instancia": 2
             },
@@ -576,15 +797,22 @@
               "fate": 0.005,
               "mvp_mapa": 0.05,
               "mvp_instancia": 0.05
-            }                       
+            }
           }
-        },  
+        },
         "3": {
           "name": "Domínio Unreal",
-          "monsters": ["normal", "ranged", "horda", "fate", "mvp_mapa", "mvp_instancia"],
+          "monsters": [
+            "normal",
+            "ranged",
+            "horda",
+            "fate",
+            "mvp_mapa",
+            "mvp_instancia"
+          ],
           "drops": {
             "florzinha": {
-              "horda": 2,              
+              "horda": 2,
               "fate": 2,
               "mvp_instancia": 2
             },
@@ -627,15 +855,22 @@
               "fate": 0,
               "mvp_mapa": 0,
               "mvp_instancia": 0.03
-            }            
+            }
           }
         },
         "4": {
           "name": "Domínio Pesadelo",
-          "monsters": ["normal", "ranged", "horda", "fate", "mvp_mapa", "mvp_instancia"],
+          "monsters": [
+            "normal",
+            "ranged",
+            "horda",
+            "fate",
+            "mvp_mapa",
+            "mvp_instancia"
+          ],
           "drops": {
             "florzinha": {
-              "horda": 2,              
+              "horda": 2,
               "fate": 2,
               "mvp_instancia": 2
             },
@@ -678,22 +913,27 @@
               "fate": 0,
               "mvp_mapa": 0,
               "mvp_instancia": 0.02
-            }            
+            }
           }
         },
         "5": {
           "name": "Domínio Ultimate 1",
-          "monsters": ["normal", "ranged", "fate", "mvp_mapa"],
+          "monsters": [
+            "normal",
+            "ranged",
+            "fate",
+            "mvp_mapa"
+          ],
           "drops": {
             "florzinha": {
               "normal": 2,
-              "ranged": 2,              
+              "ranged": 2,
               "fate": 2,
               "mvp_mapa": 2
             },
             "runa_corrompida": {
               "normal": 0.1,
-              "ranged": 0.1,              
+              "ranged": 0.1,
               "fate": 1,
               "mvp_mapa": 10
             }
@@ -701,24 +941,27 @@
         },
         "6": {
           "name": "Domínio Ultimate 2",
-          "monsters": ["horda", "fate", "mvp_instancia"],
+          "monsters": [
+            "horda",
+            "fate",
+            "mvp_instancia"
+          ],
           "drops": {
             "florzinha": {
-              "horda": 2,              
+              "horda": 2,
               "fate": 2,
               "mvp_instancia": 2
             },
             "runa_corrompida_superior": {
-              "horda": 0.1,              
+              "horda": 0.1,
               "fate": 1,
               "mvp_instancia": 10
             }
           }
-        }                  
+        }
       }
-    }  
+    }
   },
-
   "items": {
     "0_quests": {
       "name": "0 quests diárias",
@@ -744,12 +987,6 @@
       "name": "Álbum de Cartas Seladas",
       "base_drop_percent": 0.005
     },
-
-
-
-
-    
-
     "florzinha": {
       "name": "Florzinha",
       "base_drop_percent": 2.0
@@ -1226,22 +1463,10 @@
       "name": "Magic Shield",
       "base_drop_percent": 0.0075
     },
-    
-
-
-
-
-
     "bolsas": {
       "name": "Bolsas",
       "base_drop_percent": 12.0
     },
-
-
-
-
-
-
     "ruler_of_the_ends": {
       "name": "Ruler of the Ends",
       "base_drop_percent": 0
@@ -1318,21 +1543,10 @@
       "name": "Álbum de Cartas JRO",
       "base_drop_percent": 0.0001
     },
-    "shadow_purity_shield": { 
+    "shadow_purity_shield": {
       "name": "Shadow Purity Shield",
       "base_drop_percent": 0.0001
     },
-
-
-
-
-
-
-
-
-
-
-
     "fragmento_sagrado": {
       "name": "Fragmento Sagrado",
       "base_drop_percent": 0.05
@@ -1365,9 +1579,6 @@
       "name": "Escudo Divino",
       "base_drop_percent": 0
     },
-
-
-
     "ticket_sombrio": {
       "name": "Cápsula de Ticket Sombrio",
       "base_drop_percent": 0.05
@@ -1504,10 +1715,6 @@
       "name": "Starry Sky Twin Prime",
       "base_drop_percent": 0
     }
-  
-
-
-
   },
   "modifiers": {
     "rates": {
