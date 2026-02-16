@@ -46,6 +46,10 @@
             "quartas"
           ],
           "drops": {
+            "florzinha": {
+              "normal": 2,
+              "quartas": 2
+            },
             "cartas_mvp": {
               "normal": 0.01,
               "quartas": 0.015
